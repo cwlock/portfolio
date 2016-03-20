@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Portfolio piece to showcase the User Exerience and User Interface redesign of the Puget Sound Association of Phi Beta Kappa. Describes the process through the information architecture, wireframes, color palette, typeface and visual design work done to create a more modern website.">
+	<meta name="keywords" content="web design, web designer, seattle, washington, portfolio, designer, front end, front-end, desiner, web desiner, psa-pbk, pbk, puget sound, phi beta kappa, puget sound association of phi beta kappa, information architecture, info arch, ux, user experience, ui, user interface, color palette, color, palette, wireframes, wire, frames, visual design, visual, typeface, type, face, font, fonts, roboto, raleway, desktop, 960 grid, mobile, illustrator, photoshop, usable, usability, storyboarding, wordpress, resume">
+	<meta name="author" content="Chris Lockwood">
+
+	<title>User Experience and User Interface design of the Puget Sound Association of Phi Beta Kappa.</title>
+
+	<!-- Bootstrap Core CSS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+
+	<!-- Custom Fonts -->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,300,100,700,500' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Raleway:400,900,700,800' rel='stylesheet' type='text/css'>
+
+	<!-- Plugin CSS -->
+	<link rel="stylesheet" href="css/animate.min.css" type="text/css">
+	<link href="css/lightbox.css" rel="stylesheet">
+
+	<!-- Custom CSS -->
+	<link rel="stylesheet" href="css/creative.css" type="text/css">
+	<link rel="stylesheet" href="css/portfolioStyles.css" type="text/css">
+
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top">
+
+	<nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+		<div class="container-fluid">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand page-scroll" href="index.html#page-top">Chris Lockwood</a>
+			</div>
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav navbar-right">
+					<li>
+						<a class="page-scroll" href="index.html#about">About</a>
+					</li>
+					<li>
+						<a class="page-scroll" href="index.html#skills">Skills</a>
+					</li>
+					<li>
+						<a class="page-scroll" href="#portfolio">Portfolio</a>
+					</li>
+					<li>
+						<a class="page-scroll" href="index.html#resume">Resume</a>
+					</li>
+					<li>
+						<a class="page-scroll" href="index.html#contact">Contact</a>
+					</li>
+				</ul>
+			</div>
+			<!-- /.navbar-collapse -->
+		</div>
+		<!-- /.container-fluid -->
+	</nav>
+
+	<section id="pbkProjectBanner">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4 col-md-5 text-left">
+					<h3 class="project_title">Puget Sound Association of Phi Beta Kappa</h3>
+					<p class="project_heading">The Client</p>
+					<p class="project_content">The Puget Sound Association of Phi Beta Kappa, based in Seattle, is a chartered association for Phi Beta Kappa members living in western Washington State to promote scholarship, fellowship, and cultural interests. In the Puget Sound community, their association encourages and supports excellence in education through a very active awards and recognition programs as well as a variety of member activities. Election to Phi Beta Kappa recognizes superior scholastic achievement in the liberal arts and sciences.</p>
+					<p class="project_heading">Services</p>
+					<p class="project_content">Research, Problem Articulation, Storyboarding, Information Architecture, Wireframe Production, UI Development</p>
+<!--					<a href="#" class="live_link">Live <i class="fa fa-chevron-circle-right"></i></a>-->
+				</div>
+				<div class="displayCol col-lg-8 col-md-7 text-left">
+					<img src="img/pbkDisplay.png" alt="pbk display image">
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="clientSurvey">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<h3 class="project_title">Defining the Project</h3>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6 text-left">
+					<p class="project_heading">Discovery</p>
+					<p class="project_content">It was clear from the beginning that the site needed an overhaul. The client felt as if the current site did not promote a favorable experience and the lack of traffic was a major sign. The desktop view was outdated and the mobile was all but nonexistent, though they did provide ample text content. This was having a major impact on one of their main goals, which was to retain membership. Currently, much of the younger demographic fall off after a 3-year period and visit times were small, ranging from 60 to 90 seconds.</p>
+				</div>
+				<p class="project_heading col-md-6">Technical Specifications</p>
+				<div class="col-md-3">
+					<p class="project_content"><b>Current Features</b></p>
+					<ul class="project_list">
+						<li>Search Engine Optimization</li>
+						<li>Security Features</li>
+						<li>Email newsletter distribution</li>
+						<li>Discussion board/bulletin board</li>
+						<li>Social Media Feed</li>
+						<li>Event Board/Calendar</li>
+						<li>Contact Page</li>
+						<li>PayPal</li>
+					</ul>
+				</div>
+				<div class="col-md-3">
+					<p class="project_content"><b>Wanted Features</b></p>
+					<ul class="project_list">
+						<li>WordPress Integration</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+	<div class="bgcolor">
+		<section id="uxSitemap">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<h3 class="text-center">Information Architecture</h3>
+						<hr class="light">
+						<p class="project_content text-center">The Puget Sound Association of Phi Beta Kappa before the redesign, had little to no structure. The pages were individually listed in an aside bar. After careful analysis, the client and I were able to agree upon a set of categorical pages and their associated subpages.</p>
+					</div>
+				</div>
+				<div id="PBKinfoArch" class="row">
+					<div class="col-lg-12">
+						<img src="img/infoArch.svg" alt="Information Architecture" class="center-block">
+					</div>
+				</div>
+				<div id="wires" class="row">
+					<h3 class="text-center">Wireframes</h3>
+					<hr class="light">
+					<p class="project_content text-center">Phi Beta Kappa's webpage was designed using a 980px 12 column grid system. The focus of the design was flow. I wanted a layout that would move the users eyes down that page with ease.</p>
+					<div class="col-sm-4">
+						<a href="img/pbkHomeWire.svg" data-lightbox="pbkHomeWire.svg" data-title="Home Page Wireframe"><img src="img/pbkHomeWire.svg" alt="PBK Wireframe Home"></a>
+					</div>
+					<div class="col-sm-4">
+						<a href="img/pbkEventWire.svg" data-lightbox="pbkEventWire.svg" data-title="Events Page Wireframe"><img src="img/pbkEventWire.svg" alt="PBK Wireframe Events"></a>
+					</div>
+					<div class="col-sm-4">
+						<a href="img/pbkHistoryWire.svg" data-lightbox="pbkHistoryWire.svg" data-title="History Page Wireframe"><img src="img/pbkHistoryWire.svg" alt="PBK Wireframe History"></a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="colorAndFont">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<h3 class="text-center">Color Palette</h3>
+						<hr class="light">
+						<p class="project_content text-center">My focus for the color was to provide accent to key features on the page such as the events feed. The small color palette offered a way to approach the site from a minimalist standpoint, as to not detract from the content itself.</p>
+					</div>
+				</div>
+				<div class="row">
+					<div id="color" class="col-xs-12">
+						<div id="pbkBlues">
+							<div id="palettePbkBlue">
+								<p>#4163ad</p>
+							</div>
+							<div id="palettePbkLtBlue">
+								<p>#4163ad</p>
+							</div>
+						</div>
+						<div id="palettePbkGold">
+							<p>#f0ba1a</p>
+						</div>
+						<div id="palettePbkBlack">
+							<p>#414042</p>
+						</div>
+						<div id="palettePbkWhite">
+							<p>#ffffff</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div id="typeface" class="col-md-12">
+						<h3 class="text-center">Typeface</h3>
+						<hr class="light">
+						<div class="row">
+						<p class="project_content text-center container">Typeface choice played a major role in setting the tone throughout the pages. We wanted the typeface to represent the core values of the organization, while still providing an aesthetic to the user.</p>
+							<div class="col-xs-3 title_underline typeface_label">
+								<p>Typeface</p>
+							</div>
+							<div class="col-xs-6 title_underline typeface_label">
+								<p>Raleway</p>
+							</div>
+							<div class="col-xs-3 title_underline typeface_label">
+								<p>Font Size</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xs-3 typeface_label">
+								<p>Banner</p>
+							</div>
+							<div class="col-xs-6 typeface_content_40 border-left">
+								<p>The Puget Sound Association of Phi</p>
+							</div>
+							<div class="col-xs-3 typeface_content_40">
+								<p>40px</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xs-3 typeface_label">
+								<p>Description Headings</p>
+							</div>
+							<div class="col-xs-6 typeface_content_36 border-left">
+								<p>The Puget Sound Association of Phi Beta</p>
+							</div>
+							<div class="col-xs-3 typeface_content_36">
+								<p>36px</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xs-3 title_underline typeface_label">
+								<p>Typeface</p>
+							</div>
+							<div class="col-xs-6 title_underline typeface_label">
+								<p>Roboto</p>
+							</div>
+							<div class="col-xs-3 title_underline typeface_label">
+								<p>Font Size</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xs-3 typeface_label">
+								<p>Body Headings</p>
+							</div>
+							<div class="col-xs-6 typeface_content_32 border-left">
+								<p>The Puget Sound Association of Phi Beta Kappa</p>
+							</div>
+							<div class="col-xs-3 typeface_content_32">
+								<p>32px</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xs-3 typeface_label">
+								<p>Short Description</p>
+							</div>
+							<div class="col-xs-6 typeface_content_18 border-left">
+								<p>The Puget Sound Association of Phi Beta Kappa, based in Seattle, is a chartered association</p>
+							</div>
+							<div class="col-xs-3 typeface_content_18">
+								<p>18px</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xs-3 typeface_label">
+								<p>Body Content</p>
+							</div>
+							<div class="col-xs-6 typeface_content_16 border-left">
+								<p>The Puget Sound Association of Phi Beta Kappa, based in Seattle, is a chartered association for Phi Beta</p>
+							</div>
+							<div class="col-xs-3 typeface_content_16">
+								<p>16px</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</section>
+		<section id="visualDesign">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 text-center">
+						<h3>Visual Design</h3>
+						<hr class="light">
+						<p class="project_content text-center container">Pulling each of the aforementioned elements together, I was able to provide the client an appealing website to successfuly suit thier needs.</p>
+						<a href="img/sets/Final_PBK_%20Visual_Design.pdf" class="download_link" target="_blank">Desktop Design <i class="fa fa-chevron-circle-right"></i></a>
+						<a href="img/sets/Final_PBK_%20Mobile_Visual_Design.pdf" class="download_link" target="_blank">Mobile Design <i class="fa fa-chevron-circle-right"></i></a>
+					</div>
+					<div class="col-sm-4">
+						<a href="img/pbkHomeVisDes.jpg" data-lightbox="pbkHomeVisDes.jpf" data-title="Home Visual Design"><img src="img/pbkHomeVisDes.jpg" alt="PBK Home Visual Design"></a>
+					</div>
+					<div class="col-sm-4">
+						<a href="img/pbkEventVisDes.jpg" data-lightbox="pbkEventVisDes.jpg" data-title="Event Visual Design"><img src="img/pbkEventVisDes.jpg" alt="PBK Events Visual Design"></a>
+					</div>
+					<div class="col-sm-4">
+						<a href="img/pbkHistoryVisDes.svg" data-lightbox="pbkHistoryVisDes.svg" data-title="History Visual Design"><img src="img/pbkHistoryVisDes.svg" alt="PBK History Visual Design"></a>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+	<section class="no-padding" id="portfolio">
+		<div class="container-fluid">
+			<div class="row no-gutter">
+				<div class="col-lg-4 col-sm-6">
+					<a href="pbk.html" class="portfolio-box">
+						<img src="img/portfolio/pbkMock.jpg" class="img-responsive" alt="">
+						<div class="portfolio-box-caption">
+							<div class="portfolio-box-caption-content">
+								<div class="project-category text-faded">
+									Web Design
+								</div>
+								<div class="project-name">
+									Puget Sound Association of Phi Beta Kappa
+								</div>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="col-lg-4 col-sm-6">
+					<a href="bimmerus.html" class="portfolio-box">
+						<img src="img/portfolio/bimmerUS.jpg" class="img-responsive" alt="">
+						<div class="portfolio-box-caption">
+							<div class="portfolio-box-caption-content">
+								<div class="project-category text-faded">
+									Web Design &amp; Web Developement
+								</div>
+								<div class="project-name">
+									BimmerUS
+								</div>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="col-lg-4 col-sm-6">
+					<a href="acodd.html" class="portfolio-box">
+						<img src="img/portfolio/aCodd.jpg" class="img-responsive" alt="">
+						<div class="portfolio-box-caption">
+							<div class="portfolio-box-caption-content">
+								<div class="project-category text-faded">
+									Web Design
+								</div>
+								<div class="project-name">
+									A.Codd
+								</div>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="contact">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2 text-center">
+					<h2 class="section-heading">Let's Get In Touch!</h2>
+					<hr class="primary">
+					<p>Wanna get to know me? Go ahead and shoot me an email or connect with me on LinkedIn!</p>
+				</div>
+				<div class="col-lg-4 text-center col-lg-offset-4">
+					<a href="mailto:chrislockwood@chrislockwood.me"><i class="social fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i></a>
+					<a href="https://www.linkedin.com/in/chrislockwood11" target="_blank"><i class="social fa fa-linkedin fa-3x wow bounceIn"></i></a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- jQuery -->
+	<script src="js/jquery.js"></script>
+
+	<!-- Bootstrap Core JavaScript -->
+	<script src="js/bootstrap.min.js"></script>
+
+	<!-- Plugin JavaScript -->
+	<script src="js/jquery.easing.min.js"></script>
+	<script src="js/jquery.fittext.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script src="js/lightbox.js"></script>
+
+	<!-- Custom Theme JavaScript -->
+	<script src="js/creative.js"></script>
+	
+	<!-- Google Analytics -->
+	<script>
+		(function (i, s, o, g, r, a, m) {
+			i['GoogleAnalyticsObject'] = r;
+			i[r] = i[r] || function () {
+				(i[r].q = i[r].q || []).push(arguments)
+			}, i[r].l = 1 * new Date();
+			a = s.createElement(o),
+				m = s.getElementsByTagName(o)[0];
+			a.async = 1;
+			a.src = g;
+			m.parentNode.insertBefore(a, m)
+		})(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+		ga('create', 'UA-73911955-1', 'auto');
+		ga('send', 'pageview');
+	</script>
+</body>
+
+</html>

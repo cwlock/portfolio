@@ -1,0 +1,400 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>BimmerUS</title>
+    <link type="text/css" rel="stylesheet" href="css/styles.css" />
+    <!--<link rel="stylesheet" href="css/flexslider.css" type="text/css">
+    <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+  	<link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>-->
+  	<link rel="stylesheet" type="text/css" href="css/dropdown.css"/>
+	
+   	<!--<link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">-->
+    
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+  	<script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+	<!--<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+   	<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>-->
+    <script src="//use.typekit.net/cjz2csk.js"></script>
+	<script>try{Typekit.load();}catch(e){}</script>
+	<!--<script src="js/new.jquery.flexslider.js" type="text/javascript"></script>
+	<script src="js/slickFunctions.js" type="text/javascript"></script>
+	<script src="js/flexsliderFunction.js" type="text/javascript"></script>-->
+	
+  
+	<script src="js/dropdownFunction.js" type="text/javascript"></script>
+	<script src="js/dropdown.js" type="text/javascript"></script>
+	<script src="js/tabs.js" type="text/javascript"></script>
+	<!--<script src="js/package.js" type="text/javascript"></script>
+    <script src="js/index.js" type="text/javascript"></script>-->
+</head>
+<body>
+<!-- Begin Header -->
+	<header>
+		<div id="headerWrapper">
+			<div id="headerContent" class="container">
+				<!--BimmerUS Logo-->
+				<div id="bimmerUSLogo">
+					<a href="index.html"><img src="images/BimmerUSlogo.png" alt="BimmerUS Logo"/></a>
+				</div>
+				<!--Start Utility Buttons-->
+				<div id="utilityButtonWrapper">
+					<ul id="utilityButtons">
+						<li class="utility-button-item"><a href="#">Help</a></li>
+						<li class="utility-button-item"><a href="#">Chat</a></li>
+						<li class="utility-button-item"><a href="#">Contact Us</a></li>
+						<li class="utility-button-item"><a href="#">Gift Cards</a></li>
+					</ul><!--End Utility Buttons-->
+				</div>
+				<div id="headerDealsAd">
+					<p><a href="#">Today’s Deal: 20% off all <span>Brakes</span> and <span>Calipers</span></a></p>
+				</div><!--End Header Ad-->
+				<form id="headerSearch">
+					<input type="text" id="headerSearchBox" name="headerSearchBox" placeholder="Search by Keyword or Part #" />
+					<input type="image" id="headerSubmitButton" src="images/navSubmitButton.svg" name="headerSubmitButton" alt="submit" /> 
+				</form><!-- End Nav Search -->
+				<div id="userButtons">
+					<ul>
+						<li class="user-button-item"><a href="#">Sign In</a></li>
+						<li class="user-button-item"><a href="#">Wish List</a></li>
+						<li class="user-button-item"><a href="#"><img src="images/cart.svg" alt="Cart Button" style="width:30px"/><span>Cart</span></a></li>
+					</ul>
+				</div><!--End User Buttons-->
+			</div><!-- End Header Content -->
+		</div>
+		<nav id="navWrapper">
+			<nav id="mainNav" class="container">
+				<ul id="main-nav-items">
+					<li class="main-nav-item"><a href="#">Engine<img src="images/downArrow.svg" alt="Down Arrow" /></a></li>
+					<li class="main-nav-item"><a href="#">Brakes<img src="images/downArrow.svg" alt="Down Arrow" /></a></li>
+					<li class="main-nav-item"><a href="#">Suspension<img src="images/downArrow.svg" alt="Down Arrow" /></a></li>
+					<li class="main-nav-item"><a href="#">Transmission<img src="images/downArrow.svg" alt="Down Arrow" /></a></li>
+					<li class="main-nav-item"><a href="#">Lights<img src="images/downArrow.svg" alt="Down Arrow" /></a></li>
+					<li class="main-nav-item wheelsDrop"><a href="wheelsMain.html">Wheels<img src="images/downArrow.svg" alt="Down Arrow" /></a>
+						<nav id="subNav">
+							<ul class="sub-nav-items">
+								<li class="sub-nav-item">Brands</li>
+								<li class="sub-nav-item"><a href="#">AC Schnitzer</a></li>
+								<li class="sub-nav-item"><a href="#">Beyern</a></li>
+								<li class="sub-nav-item"><a href="#">D-Force</a></li>
+								<li class="sub-nav-item"><a href="#">Hamann</a></li>
+								<li class="sub-nav-item"><a href="#">Kelleners Sport</a></li>
+								<li class="sub-nav-item"><a href="wheelListings.html">VMR</a></li>
+								<li class="sub-nav-item"><a href="#">OE Wheels</a></li>
+							</ul>
+							<ul class="sub-nav-items">
+								<li class="sub-nav-item">Popular</li>
+								<li class="sub-nav-item"><a href="#">Bolts</a></li>
+								<li class="sub-nav-item"><a href="#">Spacers</a></li>
+							</ul>
+							<div id="navManualImage">
+								<p>Manual</p>
+								<a href="#"><img src="images/manual.jpg" alt="Manual" /></a>
+							</div>
+							<div id="navAd">
+								<a href="#"><img src="images/weekDeal4.png" alt="Manual" /></a>
+							</div>
+						</nav>
+					</li>
+					<li class="main-nav-item"><a href="#">Tires<img src="images/downArrow.svg" alt="Down Arrow" /></a></li>
+					<li class="main-nav-item"><a href="#">Accessories<img src="images/downArrow.svg" alt="Down Arrow" /></a></li>
+				</ul>	
+			</nav>
+		</nav><!-- End Nav -->
+	</header><!-- End Header Wrapper --><!-- End Header -->
+	<div id="bodyWrapper" class="container">
+		<div id="productUI">
+			<div id="backToResult">
+				<p><a href="wheelListings.html">&lt; Back to Results</a></p>
+			</div>
+			<div id="productImages">
+				<div id="productThumbnails">
+					<a href="#"><img src="images/VMRV710-2-50x50.jpg" alt="VMR" /></a>
+					<a href="#"><img src="images/VMRV710-3-50x50.jpg" alt="VMR" /></a>
+						<a href="#"><img src="images/VMRV710-4-50x50.jpg" alt="VMR" /></a>
+						<a href="#"><img src="images/VMRV710-5-50x50.jpg" alt="VMR" /></a>
+				</div>
+				<div id="productDisplayImage">
+					<img src="images/VMRV710-350x350.jpg" alt="VMR"/>
+				</div>
+				<div id="shareAndReview">
+					<p>Share</p>
+					<div id="shareProductFacebook">
+						<a href="#"><img src="images/socialFacebook.png" alt="Facebook" /></a>
+					</div>
+					<div id="shareProductInstagram">
+						<a href="#"><img src="images/socialInsta.png" alt="Instagram" /></a>
+					</div>
+					<div id="shareProductTwitter">
+						<a href="#"><img src="images/socialTwitter.png" alt="Twitter" /></a>
+					</div>
+					<div id="shareProductPinterest">
+						<a href="#"><img src="images/socialPinterest.png" alt="Pinterest" /></a>
+					</div>
+					<div id="shareReview">
+						<img src="images/4star.png" alt="Rating" />
+					</div>
+					<p>20 Reviews</p>
+				</div>	
+			</div>
+			<div id="productUserChoices">
+				<h3 id="productBrand">VMR</h3>
+				<p id="productFitment">VMR V710 18X8.5", ET45, 5X120, 72.6, BMW Fitment</p>
+				<p id="listPrice">List Price: <span>$279.00</span></p>
+				<p id="ourPrice">Our Price: $200.00 <span>&#40;each&#41;</span> <a href="#">Calculate Shipping</a></p>
+				<p id="productSavings">Savings: $79 &#40;28%&#41; <span>Part #: VM7789</span> <span>In Stock</span></p>
+				<div id="productQuantity">
+					<h3>Quantity:</h3>
+					<select name="Qty" class="ui dropdown" id="selectTrim">
+						<option value="4">4</option>
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="5">5</option>
+					</select>
+				</div>
+				<div id="productSize">
+					<h3>Size:</h3>
+					<select name="Size" class="ui dropdown" id="selectTrim">
+						<option value="18">18"</option>
+						<option value="17">17"</option>
+						<option value="19">19"</option>
+						<option value="20">20"</option>
+						
+					</select>
+				</div>
+				<div id="productColor">
+					<h3>Color:</h3>
+					<select name="Color" class="ui dropdown" id="selectTrim">
+						<option value="1">Matte Black</option>
+						<option value="2">Chrome</option>
+						<option value="3">Gunmetal</option>
+						<option value="4">Silver</option>
+					</select>
+				</div>
+				<div id="productButtons">
+					<div class="add2cartButton" id="add2cartButtonTop">
+						<button><a href="shoppingCart.html">Add to Cart</a></button>
+					</div>
+					<div class="add2wishListButton" id="add2wishListButtonTop">
+						<button>Add to Wish List</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="productDescription">
+			<div id="tabs">
+			  <ul>
+				<li><a href="#tabs-1">Product Description</a></li>
+				<li><a href="#tabs-2">Technical Specs</a></li>
+			  </ul>
+			  <div id="tabs-1">
+				<p>The VMR 710 is a 7-spoke mesh wheel with a deep concave face. Velocity Motoring produces beautiful lightweight aluminum alloy wheels for BMWs. VMR wheels are designed to fit exactly like the original wheels do. Each wheel is tested to meet or exceed JWL/VIA requirements and are produced at an ISO-9001:2000 approved facility. VMR will give you today’s styles, fitments and colors sought by BMW enthusiasts around the world.</p>
+			  </div>
+			  <div id="tabs-2">
+				<p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolor. Aenean aliquet fringilla sem. Suspendisse sed ligula in ligula suscipit aliquam. Praesent in eros vestibulum mi adipiscing adipiscing. Morbi facilisis. Curabitur ornare consequat nunc. Aenean vel metus. Ut posuere viverra nulla. Aliquam erat volutpat. Pellentesque convallis. Maecenas feugiat, tellus pellentesque pretium posuere, felis lorem euismod felis, eu ornare leo nisi vel felis. Mauris consectetur tortor et purus.</p>
+			  </div>
+			</div>
+		</div>
+		<div id="productWarranty">
+			<h3>Warranty &amp; Support</h3>
+			<p>Product Warranty: For warranty information about this product, please <a href="#">click here</a></p>
+		</div>
+		<div id="productFeedback">
+			<h3>Feedback</h3>
+			<p>Give us your feedback or tell us about a lower price <a href="#">here</a></p>
+		</div>
+		<div id="frequentlyBoughtTogether">
+			<h3>Frequently Bought Together</h3>
+			<div class="addOnItem">
+				<img class="mouseOverImage" src="images/VMRv710-210x210.gif" alt="VMR" />
+			</div>
+			<div id="addition">
+				<p>&#43;</p>
+			</div>
+			<div class="addOnItem">
+				<img class="mouseOverImage" src="images/wheelSpacer200x200.png" alt="Wheel Spacer" />
+			</div>
+			<div id="equals">
+				<p>&#61;</p>
+			</div>
+			<div id="subProductButtons">
+				<h3>Total: $975.95</h3>
+				<div class="add2cartButton" id="add2cartButtonSub">
+					<button>Add to Cart</button>
+				</div>
+				<div class="add2wishListButton" id="add2wishListButtonSub">
+					<button>Add to Wish List</button>
+				</div>
+			</div>
+			<div id="addItemCheckBoxes">
+				<form>
+					<input type="checkbox" name="item1" value="item1"> Add Item<br>
+
+				</form>
+			</div>
+		</div>
+		<div id="purchasedThisAlso">
+			<h3>Customers Who Purchased This Also Purchased This</h3>
+			<div class="purchaseThisToo">
+				<img src="images/VMR4210x210.gif" alt="VMR" class="mouseOverImage"/>
+				<h4>Lorem ipsum dolor</h4>
+				<p>sit amet, consectetur. Nullam tristique fringill rutrum. Vestibulum</p>
+				<div class="productPrice">
+					<p>$195.99</p>
+				</div>
+				<img src="images/2star.png" alt="Rating" />
+			</div>
+			<div class="purchaseThisToo">
+				<img src="images/wheelSpacer200x200.png" alt="Wheel Spacer" class="mouseOverImage"/>
+				<h4>Lorem ipsum dolor</h4>
+				<p>sit amet, consectetur. Nullam tristique fringill rutrum. Vestibulum</p>
+				<div class="productPrice">
+					<p>$150.95</p>
+				</div>
+				<img src="images/3star.png" alt="Rating" />
+			</div>
+			<div class="purchaseThisToo">
+				<img src="images/brakePads200x200.png" alt="Brake Pads" class="mouseOverImage"/>
+				<h4>Lorem ipsum dolor</h4>
+				<p>sit amet, consectetur. Nullam tristique fringill rutrum. Vestibulum</p>
+				<div class="productPrice">
+					<p>$99.95</p>
+				</div>
+				<img src="images/5star.png" alt="Rating" />
+			</div>
+			<div class="purchaseThisToo">
+				<img src="images/rotors200x200.png" alt="Rotors" class="mouseOverImage"/>
+				<h4>Lorem ipsum dolor</h4>
+				<p>sit amet, consectetur. Nullam tristique fringill rutrum. Vestibulum</p>
+				<div class="productPrice">
+					<p>$499.99</p>
+				</div>
+				<img src="images/4star.png" alt="Rating" />
+			</div>
+		</div>
+		<div id="productReviews">
+			<h3>Reviews</h3>
+			<div id="reviewVisualSummary">
+				<div id="reviewLinks">
+					<img src="images/5star.png" alt="Rating" />
+					<p>2 Reviews &#124; <a href="#">Write a Review</a></p>
+				</div>
+				<p>5 out of 5</p>
+				<div id="reviewGraph">
+					
+				</div>
+			</div>
+			<div id="customerReviewsSection">
+				<p><a href="#">See all Reviews</a></p>
+					<div class="customerReview">
+						<div class="review">
+							<p>30 out of 42 found this review helpful</p>
+							<p><img src="images/5star.png" alt="Rating" /> <span>Best set of wheels for the price</span></p>
+							<p>Reviewed by <span>Anonymous</span></p>
+							<p>Aliquam erat volutpat. Curabitur ac libero finibus, interdum sapien a, pulvinar tortor. Sed eu neque ac est volutpat porttitor vel id nibh. Nullam accumsan sem eget nunc egestas sodales. Curabitur mattis leo eu pharetra dapibus. Donec fringilla, turpis quis venenatis sodales, odio nulla cursus mauris, quis lacinia sapien dolor eget leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec interdum a nunc at molestie.</p>
+						</div>
+						<div class="ageAndrecommend">
+							<p>Age: 20 - 25</p>
+							<p>I would recommend this product</p>
+							<p>Was this review helpful? <a href="#">Yes</a> &#124; <a href="#">No</a> &#124; <a href="#">Report</a></p>
+						</div>
+					</div>
+					<div class="customerReview">
+						<div class="review">
+							<p>28 out of 30 found this review helpful</p>
+							<p><img src="images/5star.png" alt="Rating" /> <span>Best set of wheels for the price</span></p>
+							<p>Reviewed by <span>John Doe</span></p>
+							<p>Donec fringilla, turpis quis venenatis sodales, odio nulla cursus mauris, quis lacinia sapien dolor eget leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec interdum a nunc at molestie.</p>
+						</div>
+						<div class="ageAndrecommend">
+							<p>Age: 35 - 40</p>
+							<p>I would recommend this product</p>
+							<p>Was this review helpful? <a href="#">Yes</a> &#124; <a href="#">No</a> &#124; <a href="#">Report</a></p>
+						</div>
+					</div>
+			</div>
+		</div>
+	</div><!-- End Body Content -->
+	<footer id="footerWrapper">
+		<div id="footerAds">
+			<div id="footerAdsContent" class="container">
+				<p>Free Shipping on Orders Over $150</p>
+				<p>Lowest Prices Guaranteed</p>
+				<p>Best Warranty</p>
+				<p>Easy Returns</p>
+			</div>	
+		</div>
+		<div id="footerUI">
+			<div id="footerUIContent" class="container">
+				<div id="footerLeftCol" class="footerCol">
+					<ul class="footerNav">
+						<li>Get to Know Us</li>
+						<li class="footer-nav-item"><a href="#">Company Info</a></li>
+						<li class="footer-nav-item"><a href="#">Testimonials</a></li>
+						<li class="footer-nav-item"><a href="#">Press Releases</a></li>
+					</ul>
+					<ul class="footerNav">
+						<li>Support</li>
+						<li class="footer-nav-item"><a href="#">Contact Us</a></li>
+						<li class="footer-nav-item"><a href="#">Help</a></li>
+						<li class="footer-nav-item"><a href="#">Returns</a></li>
+						<li class="footer-nav-item"><a href="#">Exchanges</a></li>
+						<li class="footer-nav-item"><a href="#">Gift Cards</a></li>
+						<li class="footer-nav-item"><a href="#">FAQs</a></li>
+					</ul>
+					<ul class="footerNav">
+						<li>Account</li>
+						<li class="footer-nav-item"><a href="#">Wish List</a></li>
+						<li class="footer-nav-item"><a href="#">Order History</a></li>
+						<li class="footer-nav-item"><a href="#">Email Preferences</a></li>
+					</ul>
+				</div>
+				<div id="footerCenterCol" class="footerCol">
+					<div id="footerCenterColContent">
+						<h3>BimmerUS Email List</h3>
+						<form id="subNavEmailInput">
+							<input type="email" id="subNavInput" name="subNavInput" placeholder="Enter Email Address" />
+							<input type="image" id="subNavSubmitButton" src="images/subNavSubmit.svg" name="subNavSubmitButton" alt="submit" /> 
+						</form>
+						<div id="manualImage">
+							<a href="#"><img src="images/manual.jpg" alt="Manual" /></a>
+						</div>
+						<div id="manualPitch">
+							<p><a href="#">Free Manuals<br>With Every<br>Purchase!</a></p>
+						</div>
+					</div>
+				</div>
+				<div id="footerRightCol" class="footerCol">
+					<div id="footerRightColContent">
+						<div id="subNavLogo">
+							<a href="#"><img src="images/BimmerUSlogo.png" alt="Sub Nav Logo" /></a>
+						</div>
+						<div id="socialButtons">
+							<a href="#"><img src="images/socialFacebook.png" alt="Facebook"/></a>
+							<a href="#"><img src="images/socialInsta.png" alt="Instagram"/></a>
+							<a href="#"><img src="images/socialTwitter.png" alt="Twitter"/></a>
+							<a href="#"><img src="images/socialPinterest.png" alt="Pinterest"/></a>
+						</div>
+						<div id="credibilityIcons">
+							<a href="#"><img src="images/BBB.gif" alt="BBB" /></a>
+							<a href="#"><img src="images/googleVerified.png" alt="Google Verified" /></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="footerSubUtility">
+			<div id="footerSubUtilityContent" class="container">
+				<p>Copyright © 2015 BimmerUS , Inc. - All Rights Reserved. - <a href="#">Terms of Use</a> | <a href="#">Your Privacy Rights</a> | <a href="#">Purchase Terms &amp; Conditions</a></p>
+			</div>
+		</div>
+	</footer>
+
+ 	
+  	<script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  	<script type="text/javascript" src="js/slick.min.js"></script>
+  	<script type="text/javascript" src="js/dropdown.min.js"></script>
+</body>
+</html>
