@@ -1,0 +1,392 @@
+/*@font-face*/
+@font-face {
+	font-family: 'champagne & limousines';
+	src: url('../fonts/champagne__limousines-webfont.eot');
+    src: url('../fonts/champagne__limousines-webfont.woff') format('woff'),
+		 url('../fonts/champagne__limousines-webfont.woff2') format('woff2'),
+		 url('../fonts/champagne__limousines-webfont.ttf') format('truetype');
+}	
+@font-face {
+	font-family: 'champagne & limousines bold';
+	src: url('../fonts/champagne__limousines-bold-webfont.eot');
+    src: url('../fonts/champagne__limousines-bold-webfont.woff') format('woff'),
+		 url('../fonts/champagne__limousines-bold-webfont.woff2') format('woff2'),
+		 url('../fonts/champagne__limousines-bold-webfont.ttf') format('truetype');
+}
+
+/*Global*/
+.bgcolor {
+	background-color: #1a1a1a;	
+}
+#uxSitemap {
+	color: #fff;
+}
+#colorAndFont {
+	color: #fff;
+	padding-top: 0;
+}
+#colorAndFont .project_content {
+	margin: 0 auto 50px;
+}
+#visualDesign .project_content {
+	margin-bottom: 50px;
+}
+#visualDesign {
+	color: #fff;
+	padding-top: 0;	
+}
+#uxSitemap p {
+	margin: 0 auto 50px;
+}
+#wires{
+	margin-top: 50px;
+}
+#wires img {
+	width: 100%;	
+}
+#clientSurvey {
+	padding-top: 0;	
+}
+#uxSitemap h3 {
+	margin-top: 0;
+}
+#colorAndFont h3 {
+	margin-top: 0;	
+}
+#color {
+	overflow: hidden;
+	max-width: 400px;
+	margin: 0 auto 50px;
+	float: none;
+}
+#color p {
+	font-size: 16px;	
+}
+#visualDesign h3 {
+	margin-top: 0;	
+}
+.title_underline span {
+	padding-bottom: 5px;
+	border-bottom: 1px solid #fff;
+}
+.typeface_label p{
+	font-size: 12px; 	
+	font-family: roboto;
+	font-weight: 100;
+}
+.border-left p {
+	border-left: 1px solid #fff;
+	padding-left: 10px;
+}
+.download_link {
+	font-size: 13px;	
+	font-family: roboto;
+}
+.download_link i {
+	margin-bottom: 30px;
+	margin-right: 20px
+}
+#visualDesign img{
+	width: 100%;
+}
+
+/*PBK*/
+#infoArchProc {
+	width: 100%;	
+}
+#PBKinfoArch img {
+	width: 100%;
+	margin-top: 50px;
+}
+#pbkProjectBanner {
+	padding-bottom: 0	
+}
+#palettePbkBlue {
+	width: 100%;
+	color: #fff;
+	background-color: #4163ad;
+	height: 200px;
+	text-align: center;
+	float: left;
+}
+#palettePbkBlue p {
+	padding-top: 175px;
+}
+#palettePbkGold {
+	width: 25%;
+	color: #fff;
+	background-color: #f0ba1a;
+	height: 300px;
+	text-align: center;
+	float: left;
+}
+#palettePbkGold p {
+	padding-top: 275px;
+}
+#palettePbkBlack {
+	width: 25%;
+	color: #fff;
+	background-color: #414043;
+	height: 300px;
+	text-align: center;
+	float: left;
+}
+#palettePbkBlack p {
+	padding-top: 275px;
+}
+#palettePbkWhite {
+	width: 25%;
+	color: #000;
+	background-color: #fff;
+	height: 300px;
+	text-align: center;
+	float: left;
+}
+#palettePbkWhite p {
+	padding-top: 275px;
+}
+#palettePbkLtBlue {
+	width: 100%;
+	color: #fff;
+	background-color: #6781bd;
+	height: 100px;
+	text-align: center;
+	float: left;
+}
+#palettePbkLtBlue p {
+	padding-top: 75px;
+}
+#pbkBlues {
+	overflow: hidden;
+	width: 25%;
+	float: left;
+}
+.typeface_content_40 p {
+	font-size: 40px;
+	font-weight: 900;
+	font-family: Raleway;
+	line-height: 1.5;
+}
+.typeface_content_36 p {
+	font-size: 36px;
+	font-family: Raleway;
+	line-height: 1.5;	
+}
+.typeface_content_32 p {
+	font-size: 32px;
+	font-family: Roboto;
+	line-height: 1.5;	
+}
+.typeface_content_18 p {
+	font-size: 18px;
+	font-family: Roboto;
+	line-height: 1.5;	
+}
+.typeface_content_16 p {
+	font-size: 16px;
+	font-family: Roboto;
+	line-height: 1.5;	
+}
+
+/*BimmerUS*/
+#BimmerUSinfoArch img {
+	margin-bottom: 50px;	
+}
+#paletteBUBlue {
+	width: 25%;
+	color: #fff;
+	background-color: #2677ae;
+	height: 300px;
+	text-align: center;
+	float: left;
+}
+#paletteBUBlue p {
+	padding-top: 275px;
+}
+#paletteBUGold {
+	width: 25%;
+	color: #fff;
+	background-color: #fbb03b;
+	height: 300px;
+	text-align: center;
+	float: left;
+}
+#paletteBUGold p {
+	padding-top: 275px;
+}
+#paletteBUBlack {
+	width: 25%;
+	color: #fff;
+	background-color: #333333;
+	height: 300px;
+	text-align: center;
+	float: left;
+}
+#paletteBUBlack p {
+	padding-top: 275px;
+}
+#paletteBUWhite {
+	width: 25%;
+	color: #000;
+	background-color: #fff;
+	height: 300px;
+	text-align: center;
+	float: left;
+}
+#paletteBUWhite p {
+	padding-top: 275px;
+}
+#paletteBUBlue {
+	width: 100%;
+	color: #fff;
+	background-color: #6781bd;
+	height: 300px;
+	text-align: center;
+	float: left;
+}
+#paletteBUBlue {
+	overflow: hidden;
+	width: 25%;
+	float: left;
+}
+.BUtypeface_content_24 p {
+	font-size: 24px;
+	font-weight: 500;
+	font-family: 'Museo Sans', 'open sans';
+	line-height: 1.5;
+}
+.BUtypeface_content_18 p {
+	font-size: 18px;
+	font-weight: 300;
+	font-family: 'Museo Sans', 'open sans';
+	line-height: 1.5;
+}
+.BUtypeface_content_15 p {
+	font-size: 15px;
+	font-weight: 300;
+	font-family: 'Museo Sans', 'open sans';
+	line-height: 1.5;
+}
+
+
+/*A.Codd*/
+.coddImageMain img {
+	width: 70%;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+#aCoddinfoArch img {
+	max-width: 800px;
+}
+#paletteCoddBlack {
+	width: 50%;
+	color: #fff;
+	background-color: #000;
+	height: 300px;
+	text-align: center;
+	float: left;
+}
+#paletteCoddBlack p {
+	padding-top: 275px;
+}
+#paletteCoddWhite {
+	width: 50%;
+	color: #000;
+	background-color: #fff;
+	height: 300px;
+	text-align: center;
+	float: left;
+}
+#paletteCoddWhite p {
+	padding-top: 275px;
+}
+.coddTypeface_content_90 p {
+	font-family: 'champagne & limousines';
+	font-size: 40px;
+}
+.coddTypeface_content_30 p {
+	font-family: 'champagne & limousines';
+	font-size: 30px;
+}
+.coddTypeface_content_20 p {
+	font-family: 'champagne & limousines';
+	font-size: 20px;
+}
+
+/*Resume*/
+object {
+	margin: 50px 0;	
+}
+
+/*Media Queries*/
+@media(min-width:768px) {
+	.navbar-default {
+        border-color: rgba(0,0,0,.3);
+        background-color: #fff;
+    }
+
+    .navbar-default .navbar-header .navbar-brand {
+        color: #000;
+    }
+	.navbar-default .navbar-header .navbar-brand:hover,
+    .navbar-default .navbar-header .navbar-brand:focus {
+        color: #999;
+    }
+	.navbar-default .nav > li>a,
+    .navbar-default .nav>li>a:focus {
+        color: #000;
+    }
+	.navbar-default .nav > li>a:hover,
+    .navbar-default .nav>li>a:focus:hover {
+        color: #999;
+    }
+	.navbar-default.affix {
+        border-color: rgba(34,34,34,.05);
+        background-color: #fff;
+    }
+}
+@media(max-width:970px) {
+	#pbkProjectBanner img{
+		padding: 50px 0;	
+	}
+}
+@media(max-width:768px) {
+	#wires img {
+		width: 85%;
+		margin: 0 7.5% 20px;
+	}	
+	#visualDesign img {
+		width: 85%;
+		margin: 0 7.5% 20px;
+	}
+	#wires div:last-of-type img {
+		margin-bottom: 0;
+	}
+	#typeface .typeface_content_40 p {
+		font-size: 30px;
+	}
+	#typeface .typeface_content_36 p {
+		font-size: 27px;
+	}
+	#typeface .typeface_content_32 p {
+		font-size: 24px;
+	}
+	#typeface .typeface_content_18 p {
+		font-size: 13.5px;
+	}
+	#typeface .typeface_content_16 p {
+		font-size: 12px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
