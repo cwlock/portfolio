@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Portfolio piece to showcase the User Exerience design, User Interface design and web development of a mock eCommerce project. Describes the process through the information architecture, interaction design, wireframes, color palette, typeface, visual design and web development work done to create an auto parts eCommerce site.">
+	<meta name="keywords" content="web design, web designer, web development, web dev, seattle, washington, portfolio, designer, front end, front-end, desiner, web desiner, auto, auto parts, bmw, bimmer, bimmerUS, information architecture, info arch, interaction, interaction design, shopping cart, ux, user experience, ui, user interface, color palette, color, palette, wireframes, wireframe, wire, frames, visual design, visual, typeface, type, face, font, fonts, museo sans, 960 grid, grid, 980, desktop, mobile, illustrator, photoshop, usable, usability, storyboarding, wordpress, resume">
+	<meta name="author" content="Chris Lockwood">
+
+	<title>User Experience design, User Interface design and web development portfolio piece.</title>
+
+	<!-- Bootstrap Core CSS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+
+	<!-- Custom Fonts -->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,300,100,700,500' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Raleway:400,900,700,800' rel='stylesheet' type='text/css'>
+
+	<!-- Plugin CSS -->
+	<link rel="stylesheet" href="css/animate.min.css" type="text/css">
+	<link href="css/lightbox.css" rel="stylesheet">
+
+	<!-- Custom CSS -->
+	<link rel="stylesheet" href="css/creative.css" type="text/css">
+	<link rel="stylesheet" href="css/portfolioStyles.css" type="text/css">
+
+	<!-- Typekit Fonts -->
+	<script src="https://use.typekit.net/dxz7hon.js"></script>
+	<script>try{Typekit.load({ async: true });}catch(e){}</script>
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top">
+
+	<nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+		<div class="container-fluid">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand page-scroll" href="index.html#page-top">Chris Lockwood</a>
+			</div>
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav navbar-right">
+					<li>
+						<a class="page-scroll" href="index.html#about">About</a>
+					</li>
+					<li>
+						<a class="page-scroll" href="index.html#skills">Skills</a>
+					</li>
+					<li>
+						<a class="page-scroll" href="#portfolio">Portfolio</a>
+					</li>
+					<li>
+						<a class="page-scroll" href="index.html#resume">Resume</a>
+					</li>
+					<li>
+						<a class="page-scroll" href="index.html#contact">Contact</a>
+					</li>
+				</ul>
+			</div>
+			<!-- /.navbar-collapse -->
+		</div>
+		<!-- /.container-fluid -->
+	</nav>
+
+	<section id="pbkProjectBanner">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4 col-md-5 text-left">
+					<h3 class="project_title">BimmerUS - eCommerce School Project</h3>
+					<p class="project_heading">The Project Objective</p>
+					<p class="project_content">BimmerUS is a fictional auto parts warehouse for BMW vehicles. This project was meant to provide an overview and detailed look into the way User Interface and User Experience dictates design choices, functionality, features and content. My goal was to design and develop a small to mid-sized e-commerce website from home page to checkout confirmation, while keeping the user’s path in mind. I wanted to create the simplest checkout experience possible, all while still providing necessary information the user may want and need.</p>
+					<p class="project_heading">Services</p>
+					<p class="project_content">Research, Problem Articulation, Storyboarding, Information Architecture, Interaction Design, Wireframe Production, UI Development</p>
+					<p class="project_content"><b>Note:</b> There is a single path through the live mock. To start, please select "Wheels," filter by VMR and select the V710.</p>
+					<a href="http://clockwooddw.com/web202/BimmerUS/" class="live_link">Live Mock <i class="fa fa-chevron-circle-right"></i></a>
+				</div>
+				<div class="displayCol bimmer col-lg-8 col-md-7 text-left">
+					<img src="img/bimmerusDisplay.png" alt="BimmerUS display image">
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="clientSurvey">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<h3 class="project_title">Defining the Project</h3>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6 text-left">
+					<p class="project_heading">Discovery</p>
+					<p class="project_content">BimmerUS was designed to be the go to destination for the do-it-yourselfer looking to find auto parts and accessories to repair or modify their BMW.  The average customer would typically be in their late 20’s to 30’s with a background in automotive work.  I wanted to provide the customer a favorable experience by allowing them to quickly and easily find the product they needed. Tools such as the car make and model selector was used to assist in this process.</p>
+				</div>
+				<p class="project_heading col-md-6">Technical Specifications</p>
+				<div class="col-md-3">
+					<p class="project_content"><b>Features</b></p>
+					<ul class="project_list">
+						<li>Year/Make/Model Selector</li>
+						<li>Shopping Cart</li>
+						<li>Inventory Sliders</li>
+						<li>Inventory Filter</li>
+						<li>Sign in/Sign up forms</li>
+					</ul>
+				</div>
+<!--
+				<div class="col-md-3">
+					<p class="project_content"><b>Wanted Features</b></p>
+					<ul class="project_list">
+						<li>WordPress Integration</li>
+					</ul>
+				</div>
+-->
+			</div>
+		</div>
+	</section>
+	<div class="bgcolor">
+		<section id="uxSitemap">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<h3 class="text-center">Information Architecture</h3>
+						<hr class="light">
+						<p class="project_content text-center">Being as BimmerUS is an auto parts warehouse, it was inevitable that the navigational structure would be a little cramped. Each part was grouped into a category that made the most sense. Utility buttons were provided in the header to allow the customer to login, view their shopping cart, view their wish list, etc.</p>
+					</div>
+				</div>
+				<div id="BimmerUSinfoArch" class="row">
+					<div class="col-lg-12">
+						<a href="img/BimmerUSinfoArchLB.svg" data-lightbox="BimmerUSinfoArchLB.svg" data-title="BimmerUS Information Architecture"><img src="img/BimmerUSinfoArch.svg" alt="Information Architecture" class="center-block"></a>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-12">
+						<h3 class="text-center">Interaction Design</h3>
+						<hr class="light">
+						<p class="project_content text-center">During the interaction design process the goal was to design the most logical process through a shopping cart.  The arrows designate the choice a user would make and the page they would be directed to, based off of that choice.</p>
+					</div>
+				</div>
+				<div id="BimmerUSInteractionDesign" class="row">
+					<div class="col-lg-12">
+						<a href="img/BimmerUSInteractionDesignLB.svg" data-lightbox="BimmerUSInteractionDesignLB.svg" data-title="BimmerUS Interaction Design"><img src="img/BimmerUSInteractionDesign.svg" alt="Interaction Design" class="center-block"></a>
+					</div>
+				</div>
+				<div id="wires" class="row">
+					<h3 class="text-center">Wireframes</h3>
+					<hr class="light">
+					<p class="project_content text-center">BimmerUS was designed using a 980px 12 column grid system. The focus of the design was to allow the user to fine tune their searches in a simple compact layout. I wanted the design to provide the customer enough information without having to scroll down the page.</p>
+					<div class="col-sm-4">
+						<a href="img/BimmerUSHomeWire.svg" data-lightbox="BimmerUSHomeWire.svg" data-title="Home Page Wireframe"><img src="img/BimmerUSHomeWire.svg" alt="BimmerUS Wireframe Home"></a>
+					</div>
+					<div class="col-sm-4">
+						<a href="img/BimmerUSWheelsWire.svg" data-lightbox="BimmerUSWheelsWire.svg" data-title="Events Page Wireframe"><img src="img/BimmerUSWheelsWire.svg" alt="BimmerUS Wireframe Wheels"></a>
+					</div>
+					<div class="col-sm-4">
+						<a href="img/BimmerUSDescriptionWire.svg" data-lightbox="BimmerUSDescriptionWire.svg" data-title="History Page Wireframe"><img src="img/BimmerUSDescriptionWire.svg" alt="BimmerUS Wireframe Item Description"></a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="colorAndFont">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<h3 class="text-center">Color Palette</h3>
+						<hr class="light">
+						<p class="project_content text-center">The color palette was minimal through the design. Being as the site is content driven, I didn’t want to provide a lot of color to detract from the objective, which was to get the user in and out as quickly as possible.</p>
+					</div>
+				</div>
+				<div class="row">
+					<div id="color" class="col-xs-12">
+						<div id="paletteBUBlue">
+							<p>#2677ae</p>
+						</div>
+						<div id="paletteBUGold">
+							<p>#fbb03b</p>
+						</div>
+						<div id="paletteBUBlack">
+							<p>#333333</p>
+						</div>
+						<div id="paletteBUWhite">
+							<p>#ffffff</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div id="typeface" class="col-md-12">
+						<!--						<a href="img/pbkTypeface.svg" data-lightbox="pbkTypeface.svg" data-title="Typeface"><img src="img/pbkTypeface.svg" alt="PBK Color Palette"></a>-->
+						<h3 class="text-center">Typeface</h3>
+						<hr class="light">
+						<div class="row">
+						<p class="project_content text-center container">The typeface I chose was a sans-serif, sturdy and geometrical typeface that works well for a wide array of displays.</p>
+							<div class="col-xs-3 title_underline typeface_label">
+								<p>Typeface</p>
+							</div>
+							<div class="col-xs-6 title_underline typeface_label">
+								<p>Museo Sans</p>
+							</div>
+							<div class="col-xs-3 title_underline typeface_label">
+								<p>Font Size</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xs-3 typeface_label">
+								<p>Page ID</p>
+							</div>
+							<div class="col-xs-6 BUtypeface_content_24 border-left">
+								<p>The VMR 710 is a 7-spoke mesh wheel with a deep concave face.</p>
+							</div>
+							<div class="col-xs-3 BUtypeface_content_24">
+								<p>24px</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xs-3 typeface_label">
+								<p>Nav/Headings</p>
+							</div>
+							<div class="col-xs-6 BUtypeface_content_18 border-left">
+								<p>The VMR 710 is a 7-spoke mesh wheel with a deep concave face.</p>
+							</div>
+							<div class="col-xs-3 BUtypeface_content_18">
+								<p>18px</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xs-3 typeface_label">
+								<p>Body Content</p>
+							</div>
+							<div class="col-xs-6 BUtypeface_content_15 border-left">
+								<p>The VMR 710 is a 7-spoke mesh wheel with a deep concave face.</p>
+							</div>
+							<div class="col-xs-3 BUtypeface_content_15">
+								<p>15px</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</section>
+		<section id="visualDesign">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 text-center">
+						<h3>Visual Design</h3>
+						<hr class="light">
+						<p class="project_content text-center container">The visual design allowed the design to really come together. Much of the focus was on getting the customer to purchase items they didn't orginally think they needed. For instance, the main banner on the home page slides to show off discounted product.</p>
+					</div>
+					<div class="col-sm-4">
+						<a href="img/BimmerUSHomeVisDes.jpg" data-lightbox="BimmerUSHomeVisDes.jpg" data-title="BimmerUS Home"><img src="img/BimmerUSHomeVisDes.jpg" alt="BimmerUS Home"></a>
+					</div>
+					<div class="col-sm-4">
+						<a href="img/BimmerUSHomeVisDes2.jpg" data-lightbox="BimmerUSHomeVisDes2.jpg" data-title="BimmerUS Home"><img src="img/BimmerUSHomeVisDes2.jpg" alt="BimmerUS Home"></a>
+					</div>
+					<div class="col-sm-4">
+						<a href="img/BimmerUSWheelsVisDes.jpg" data-lightbox="BimmerUSWheelsVisDes.jpg" data-title="BimmerUS Wheels"><img src="img/BimmerUSWheelsVisDes.jpg" alt="BimmerUS Wheels"></a>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+	<section class="no-padding" id="portfolio">
+		<div class="container-fluid">
+			<div class="row no-gutter">
+				<div class="col-lg-4 col-sm-6">
+					<a href="pbk.html" class="portfolio-box">
+						<img src="img/portfolio/pbkMock.jpg" class="img-responsive" alt="">
+						<div class="portfolio-box-caption">
+							<div class="portfolio-box-caption-content">
+								<div class="project-category text-faded">
+									Web Design
+								</div>
+								<div class="project-name">
+									Puget Sound Association of Phi Beta Kappa
+								</div>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="col-lg-4 col-sm-6">
+					<a href="bimmerus.html" class="portfolio-box">
+						<img src="img/portfolio/bimmerUS.jpg" class="img-responsive" alt="">
+						<div class="portfolio-box-caption">
+							<div class="portfolio-box-caption-content">
+								<div class="project-category text-faded">
+									Web Design &amp; Web Developement
+								</div>
+								<div class="project-name">
+									BimmerUS
+								</div>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="col-lg-4 col-sm-6">
+					<a href="acodd.html" class="portfolio-box">
+						<img src="img/portfolio/aCodd.jpg" class="img-responsive" alt="">
+						<div class="portfolio-box-caption">
+							<div class="portfolio-box-caption-content">
+								<div class="project-category text-faded">
+									Web Design
+								</div>
+								<div class="project-name">
+									A.Codd
+								</div>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="contact">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2 text-center">
+					<h2 class="section-heading">Let's Get In Touch!</h2>
+					<hr class="primary">
+					<p>Wanna get to know me? Go ahead and shoot me an email or connect with me on LinkedIn!</p>
+				</div>
+				<div class="col-lg-4 text-center col-lg-offset-4">
+					<a href="mailto:chrislockwood@chrislockwood.me"><i class="social fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i></a>
+					<a href="https://www.linkedin.com/in/chrislockwood11" target="_blank"><i class="social fa fa-linkedin fa-3x wow bounceIn"></i></a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- jQuery -->
+	<script src="js/jquery.js"></script>
+
+	<!-- Bootstrap Core JavaScript -->
+	<script src="js/bootstrap.min.js"></script>
+
+	<!-- Plugin JavaScript -->
+	<script src="js/jquery.easing.min.js"></script>
+	<script src="js/jquery.fittext.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script src="js/lightbox.js"></script>
+
+	<!-- Custom Theme JavaScript -->
+	<script src="js/creative.js"></script>
+
+	<!-- Google Analytics -->
+	<script>
+		(function (i, s, o, g, r, a, m) {
+			i['GoogleAnalyticsObject'] = r;
+			i[r] = i[r] || function () {
+				(i[r].q = i[r].q || []).push(arguments)
+			}, i[r].l = 1 * new Date();
+			a = s.createElement(o),
+				m = s.getElementsByTagName(o)[0];
+			a.async = 1;
+			a.src = g;
+			m.parentNode.insertBefore(a, m)
+		})(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+		ga('create', 'UA-73911955-1', 'auto');
+		ga('send', 'pageview');
+	</script>
+</body>
+
+</html>

@@ -1,0 +1,363 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>BimmerUS</title>
+    <link type="text/css" rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/flexslider.css" type="text/css">
+    <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+  	<link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
+  	<link rel="stylesheet" type="text/css" href="css/dropdown.css"/>
+	
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+	<!--<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>-->
+   	 <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="//use.typekit.net/cjz2csk.js"></script>
+	<script>try{Typekit.load();}catch(e){}</script>
+	<script src="js/new.jquery.flexslider.js" type="text/javascript"></script>
+	<script src="js/slickFunctions.js" type="text/javascript"></script>
+	<script src="js/flexsliderFunction.js" type="text/javascript"></script>
+	
+	<script src="js/dropdownFunction.js" type="text/javascript"></script>
+	<script src="js/dropdown.js" type="text/javascript"></script>
+	<!--<script src="js/package.js" type="text/javascript"></script>
+    <script src="js/index.js" type="text/javascript"></script>-->
+    
+</head>
+<body>
+<!-- Begin Header -->
+	<header>
+		<div id="headerWrapper">
+			<div id="headerContent" class="container">
+				<!--BimmerUS Logo-->
+				<div id="bimmerUSLogo">
+					<a href="index.html"><img src="images/BimmerUSlogo.png" alt="BimmerUS Logo"/></a>
+				</div>
+				<!--Start Utility Buttons-->
+				<div id="utilityButtonWrapper">
+					<ul id="utilityButtons">
+						<li class="utility-button-item"><a href="#">Help</a></li>
+						<li class="utility-button-item"><a href="#">Chat</a></li>
+						<li class="utility-button-item"><a href="#">Contact Us</a></li>
+						<li class="utility-button-item"><a href="#">Gift Cards</a></li>
+					</ul><!--End Utility Buttons-->
+				</div>
+				<div id="headerDealsAd">
+					<p><a href="#">Today’s Deal: 20% off all <span>Brakes</span> and <span>Calipers</span></a></p>
+				</div><!--End Header Ad-->
+				<form id="headerSearch">
+					<input type="text" id="headerSearchBox" name="headerSearchBox" placeholder="Search by Keyword or Part #" />
+					<input type="image" id="headerSubmitButton" src="images/navSubmitButton.svg" name="headerSubmitButton" alt="submit" /> 
+				</form><!-- End Nav Search -->
+				<div id="userButtons">
+					<ul>
+						<li class="user-button-item"><a href="#">Sign In</a></li>
+						<li class="user-button-item"><a href="#">Wish List</a></li>
+						<li class="user-button-item"><a href="#"><img src="images/cart.svg" alt="Cart Button" style="width:30px"/><span>Cart</span></a></li>
+					</ul>
+				</div><!--End User Buttons-->
+			</div><!-- End Header Content -->
+		</div>
+		<nav id="navWrapper">
+			<nav id="mainNav" class="container">
+				<ul id="main-nav-items">
+					<li class="main-nav-item"><a href="#">Engine<img src="images/downArrow.svg" alt="Down Arrow" /></a></li>
+					<li class="main-nav-item"><a href="#">Brakes<img src="images/downArrow.svg" alt="Down Arrow" /></a></li>
+					<li class="main-nav-item"><a href="#">Suspension<img src="images/downArrow.svg" alt="Down Arrow" /></a></li>
+					<li class="main-nav-item"><a href="#">Transmission<img src="images/downArrow.svg" alt="Down Arrow" /></a></li>
+					<li class="main-nav-item"><a href="#">Lights<img src="images/downArrow.svg" alt="Down Arrow" /></a></li>
+					<li class="main-nav-item wheelsDrop"><a href="wheelsMain.html">Wheels<img src="images/downArrow.svg" alt="Down Arrow" /></a>
+						<nav id="subNav">
+							<ul class="sub-nav-items">
+								<li class="sub-nav-item">Brands</li>
+								<li class="sub-nav-item"><a href="#">AC Schnitzer</a></li>
+								<li class="sub-nav-item"><a href="#">Beyern</a></li>
+								<li class="sub-nav-item"><a href="#">D-Force</a></li>
+								<li class="sub-nav-item"><a href="#">Hamann</a></li>
+								<li class="sub-nav-item"><a href="#">Kelleners Sport</a></li>
+								<li class="sub-nav-item"><a href="wheelListings.html">VMR</a></li>
+								<li class="sub-nav-item"><a href="#">OE Wheels</a></li>
+							</ul>
+							<ul class="sub-nav-items">
+								<li class="sub-nav-item">Popular</li>
+								<li class="sub-nav-item"><a href="#">Bolts</a></li>
+								<li class="sub-nav-item"><a href="#">Spacers</a></li>
+							</ul>
+							<div id="navManualImage">
+								<p>Manual</p>
+								<a href="#"><img src="images/manual.jpg" alt="Manual" /></a>
+							</div>
+							<div id="navAd">
+								<a href="#"><img src="images/weekDeal4.png" alt="Manual" /></a>
+							</div>
+						</nav>
+					</li>
+					<li class="main-nav-item"><a href="#">Tires<img src="images/downArrow.svg" alt="Down Arrow" /></a></li>
+					<li class="main-nav-item"><a href="#">Accessories<img src="images/downArrow.svg" alt="Down Arrow" /></a></li>
+				</ul>	
+			</nav>
+		</nav><!-- End Nav -->
+	</header><!-- End Header Wrapper --><!-- End Header -->
+	<div id="bodyWrapper" class="container">
+		<div id="bodyLeftCol">
+			<div id="yourVehicle">
+				<div id="yourVehiclePic">
+					<img src="images/yourVehicleSelection.png" alt="Vehicle Selection" />
+				</div>
+				<div id="vehicleHeading">
+					<h3>Your Vehicle</h3>
+				</div>
+				<div id="yourVehicleTitle">
+					<p>2011 328i xDrive Coupe</p>
+				</div>
+			</div>
+			<div id="menuFilter-brand">
+				<ul>
+					<li>Brand</li>
+					<li><a href="#">AC Schnitzer&#40;2&#41;</a></li>
+					<li><a href="#">Beyern&#40;6&#41;</a></li>
+					<li><a href="#">D-Force&#40;1&#41;</a></li>
+					<li><a href="#">Hamann&#40;8&#41;</a></li>
+					<li><a href="#">Kelleners Sport&#40;5&#41;</a></li>
+					<li class="activeFilter"><a href="#">VMR&#40;10&#41;</a> &lt;</li>
+					<li><a href="#">OE Wheels&#40;4&#41;</a></li>
+				</ul>
+			</div>
+			<div id="menuFilter-size">
+				<ul>
+					<li>Size</li>
+					<li><a href="#">17” Wheels&#40;9&#41;</a></li>
+					<li><a href="#">18” Wheels&#40;13&#41;</a></li>
+					<li><a href="#">19” Wheels&#40;11&#41;</a></li>
+					<li><a href="#">20” Wheels&#40;3&#41;</a></li>
+				</ul>
+			</div>
+			<div id="menuFilter-price">
+				<ul>
+					<li>Price &#40; per wheel &#41;</li>
+					<li><a href="#">$100 - $200&#40;15&#41;</a></li>
+					<li><a href="#">$200 - $300&#40;12&#41;</a></li>
+					<li><a href="#">$300 - $400&#40;7&#41;</a></li>
+					<li><a href="#">$500 - $600&#40;2&#41;</a></li>
+				</ul>
+			</div>
+			<div id="menuFilter-rating">
+				<ul>
+					<li>Rating</li>
+					<li><a href="#"><img src="images/4star.png" alt="4 Stars" /><p>and up&#40;11&#41;</p></a></li>
+					<li><a href="#"><img src="images/3star.png" alt="3 Stars" /><p>and up&#40;15&#41;</p></a></li>
+					<li><a href="#"><img src="images/2star.png" alt="2 Stars" /><p>and up&#40;4&#41;</p></a></li>
+					<li><a href="#"><img src="images/1star.png" alt="1 Stars" /><p>and up&#40;2&#41;</p></a></li>
+				</ul>
+			</div>
+			<div id="menuFilter-color">
+				<ul>
+					<li>Color</li>
+					<li><a href="#">Chrome&#40;10&#41;</a></li>
+					<li><a href="#">Gunmetal&#40;5&#41;</a></li>
+					<li><a href="#">Matte Black&#40;13&#41;</a></li>
+					<li><a href="#">Silver&#40;8&#41;</a></li>
+				</ul>
+			</div>
+		</div>
+		<div id="bodyRightCol">
+			<div id="breadCrumb">
+				<p><a href="wheelsMain.html">Wheels</a> &gt; <a href="#">VMR</a></p>
+			</div>
+			<div id="productListings">
+				<div id="productListing1">
+					<div class="listingImage">
+						<a href="productDescription.html"><img src="images/VMRv710-210x210.gif" alt="VMR" /></a>
+					</div>
+					<div class="listingTitle">
+						<h3><a href="productDescription.html">Lorem Dolor</a></h3>
+					</div>
+					<div class="listingDescription">
+						<p>sit amet, consectetur adipiscing elit. Nullam tristique 
+	fringilla leo non rutrum. Vestibulum</p>
+					</div>
+					<div class="productPrice">
+						<p>$200.00</p>
+					</div>
+					<div class="listingRating">
+						<a href="productDescription.html"><img src="images/5star.png" alt="Rating" /></a>
+					</div>
+				</div>
+				<div id="productListing2">
+					<div class="listingImage">
+						<a href="#"><img src="images/vmrWheel2210x210.gif" alt="VMR" /></a>
+					</div>
+					<div class="listingTitle">
+						<h3><a href="#">Lorem Dolor</a></h3>
+					</div>
+					<div class="listingDescription">
+						<p>sit amet, consectetur adipiscing elit. Nullam tristique 
+	fringilla leo non rutrum. Vestibulum</p>
+					</div>
+					<div class="productPrice">
+						<p>$320.99</p>
+					</div>
+					<div class="listingRating">
+						<a href="#"><img src="images/4star.png" alt="Rating" /></a>
+					</div>
+				</div>
+				<div id="productListing3">
+					<div class="listingImage">
+						<a href="#"><img src="images/VMRWheel3210x210.gif" alt="VMR" /></a>
+					</div>
+					<div class="listingTitle">
+						<h3><a href="#">Lorem Dolor</a></h3>
+					</div>
+					<div class="listingDescription">
+						<p>sit amet, consectetur adipiscing elit. Nullam tristique 
+	fringilla leo non rutrum. Vestibulum</p>
+					</div>
+					<div class="productPrice">
+						<p>$224.95</p>
+					</div>
+					<div class="listingRating">
+						<a href="#"><img src="images/3star.png" alt="Rating" /></a>
+					</div>
+				</div>
+				<div id="productListing4">
+					<div class="listingImage">
+						<a href="#"><img src="images/VMR4210x210.gif" alt="VMR" /></a>
+					</div>
+					<div class="listingTitle">
+						<h3><a href="#">Lorem Dolor</a></h3>
+					</div>
+					<div class="listingDescription">
+						<p>sit amet, consectetur adipiscing elit. Nullam tristique 
+	fringilla leo non rutrum. Vestibulum</p>
+					</div>
+					<div class="productPrice">
+						<p>$195.99</p>
+					</div>
+					<div class="listingRating">
+						<a href="#"><img src="images/2star.png" alt="Rating" /></a>
+					</div>
+				</div>
+				<div id="productListing5">
+					<div class="listingImage">
+						<a href="#"><img src="images/VMR5210x210.gif" alt="VMR" /></a>
+					</div>
+					<div class="listingTitle">
+						<h3><a href="#">Lorem Dolor</a></h3>
+					</div>
+					<div class="listingDescription">
+						<p>sit amet, consectetur adipiscing elit. Nullam tristique 
+	fringilla leo non rutrum. Vestibulum</p>
+					</div>
+					<div class="productPrice">
+						<p>$200.00</p>
+					</div>
+					<div class="listingRating">
+						<a href="#"><img src="images/5star.png" alt="Rating" /></a>
+					</div>
+				</div>
+				<div id="productListing6">
+					<div class="listingImage">
+						<a href="#"><img src="images/VMR6210x210.gif" alt="VMR" /></a>
+					</div>
+					<div class="listingTitle">
+						<h3><a href="#">Lorem Dolor</a></h3>
+					</div>
+					<div class="listingDescription">
+						<p>sit amet, consectetur adipiscing elit. Nullam tristique 
+	fringilla leo non rutrum. Vestibulum</p>
+					</div>
+					<div class="productPrice">
+						<p>$349.95</p>
+					</div>
+					<div class="listingRating">
+						<a href="#"><img src="images/4star.png" alt="Rating" /></a>
+					</div>
+				</div>
+			</div>	
+			<div id="pagination">
+				<p><a href="#">&lt; First</a> <a href="#">Previous Page</a> <a href="#">1</a> <a href="#">2</a> <a href="#">Next Page</a> <a href="#">Last &gt;</a> <a href="#">View All</a></p>
+			</div>
+		</div>
+	</div><!-- End Body Content -->
+	<footer id="footerWrapper">
+		<div id="footerAds">
+			<div id="footerAdsContent" class="container">
+				<p>Free Shipping on Orders Over $150</p>
+				<p>Lowest Prices Guaranteed</p>
+				<p>Best Warranty</p>
+				<p>Easy Returns</p>
+			</div>	
+		</div>
+		<div id="footerUI">
+			<div id="footerUIContent" class="container">
+				<div id="footerLeftCol" class="footerCol">
+					<ul class="footerNav">
+						<li>Get to Know Us</li>
+						<li class="footer-nav-item"><a href="#">Company Info</a></li>
+						<li class="footer-nav-item"><a href="#">Testimonials</a></li>
+						<li class="footer-nav-item"><a href="#">Press Releases</a></li>
+					</ul>
+					<ul class="footerNav">
+						<li>Support</li>
+						<li class="footer-nav-item"><a href="#">Contact Us</a></li>
+						<li class="footer-nav-item"><a href="#">Help</a></li>
+						<li class="footer-nav-item"><a href="#">Returns</a></li>
+						<li class="footer-nav-item"><a href="#">Exchanges</a></li>
+						<li class="footer-nav-item"><a href="#">Gift Cards</a></li>
+						<li class="footer-nav-item"><a href="#">FAQs</a></li>
+					</ul>
+					<ul class="footerNav">
+						<li>Account</li>
+						<li class="footer-nav-item"><a href="#">Wish List</a></li>
+						<li class="footer-nav-item"><a href="#">Order History</a></li>
+						<li class="footer-nav-item"><a href="#">Email Preferences</a></li>
+					</ul>
+				</div>
+				<div id="footerCenterCol" class="footerCol">
+					<div id="footerCenterColContent">
+						<h3>BimmerUS Email List</h3>
+						<form id="subNavEmailInput">
+							<input type="email" id="subNavInput" name="subNavInput" placeholder="Enter Email Address" />
+							<input type="image" id="subNavSubmitButton" src="images/subNavSubmit.svg" name="subNavSubmitButton" alt="submit" /> 
+						</form>
+						<div id="manualImage">
+							<a href="#"><img src="images/manual.jpg" alt="Manual" /></a>
+						</div>
+						<div id="manualPitch">
+							<p><a href="#">Free Manuals<br>With Every<br>Purchase!</a></p>
+						</div>
+					</div>
+				</div>
+				<div id="footerRightCol" class="footerCol">
+					<div id="footerRightColContent">
+						<div id="subNavLogo">
+							<a href="#"><img src="images/BimmerUSlogo.png" alt="Sub Nav Logo" /></a>
+						</div>
+						<div id="socialButtons">
+							<a href="#"><img src="images/socialFacebook.png" alt="Facebook"/></a>
+							<a href="#"><img src="images/socialInsta.png" alt="Instagram"/></a>
+							<a href="#"><img src="images/socialTwitter.png" alt="Twitter"/></a>
+							<a href="#"><img src="images/socialPinterest.png" alt="Pinterest"/></a>
+						</div>
+						<div id="credibilityIcons">
+							<a href="#"><img src="images/BBB.gif" alt="BBB" /></a>
+							<a href="#"><img src="images/googleVerified.png" alt="Google Verified" /></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="footerSubUtility">
+			<div id="footerSubUtilityContent" class="container">
+				<p>Copyright © 2015 BimmerUS , Inc. - All Rights Reserved. - <a href="#">Terms of Use</a> | <a href="#">Your Privacy Rights</a> | <a href="#">Purchase Terms &amp; Conditions</a></p>
+			</div>
+		</div>
+	</footer>
+
+ 	
+  	<script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  	<script type="text/javascript" src="js/slick.min.js"></script>
+  	<script type="text/javascript" src="js/dropdown.min.js"></script>
+</body>
+</html>

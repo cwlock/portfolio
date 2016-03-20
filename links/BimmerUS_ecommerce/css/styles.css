@@ -1,0 +1,1667 @@
+/*
+* Author: Chris Lockwood
+* Mock Site: BimmerUS.com
+*/
+
+
+/******************
+** Global Styles **
+******************/
+
+* {
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	font-family: "museo-sans", "myriad-pro", sans-serif;
+}
+li {
+	list-style-type: none;
+}
+.container {
+	width: 980px;
+	margin: 0 auto;
+}
+.mouseOverImage:hover {
+	opacity: .8;
+}
+.shoppingCartBreadCrumb {
+	margin: 30px 0;
+	float: left;
+}
+.shoppingCartBreadCrumb a {
+	color: #333;
+	text-decoration: none;
+}
+.shoppingCartBreadCrumb a:hover {
+	color: #848388; 
+}
+/************************
+** Begin Header Styles **
+************************/
+
+#headerWrapper {
+	width: 100%;
+	background-color: #2677ae;
+	height: 100px;
+}
+#bimmerUSLogo {
+	width: 240px;
+	margin-left: 10px;
+	margin-top: 18px;
+	float: left;
+}
+#utilityButtonWrapper {
+	float: left;
+	padding-left: 36px;
+	margin-top: 14px
+}
+#utilityButtons .utility-button-item {
+	float: left;
+	padding-right: 20px;
+}
+#utilityButtons .utility-button-item:last-of-type {
+	padding-right: 105px;	
+}
+#utilityButtons .utility-button-item a {
+	font-size: 15px;	
+	color: #fff;
+	text-decoration: none;
+}
+#utilityButtons .utility-button-item a:hover {
+	color: #848388; 	
+}
+#headerDealsAd {
+	float: left;
+	margin-top: 14px;
+}
+#headerDealsAd p a {
+	font-size: 15px;
+	color: #fff;
+	text-decoration: none;
+}
+#headerDealsAd p a:hover {
+	color: #848388;
+}
+#headerSearch {
+	float: left;
+	width: 486px;
+	height: 35px;
+	margin-left: 36px;
+	margin-top: 10px;
+}
+#headerSearch #headerSearchBox {
+	height: 35px; 
+	width: 423px;
+	float: left;
+	border-radius: 10px 0 0 10px;
+	border: none;
+	padding-left: 10px;
+}
+#headerSearch #headerSubmitButton {
+	float: left;
+	width: 53px;
+}
+#userButtons {
+	float: left;
+	margin-top: 17px;
+}
+#userButtons .user-button-item {
+	float: left;
+	padding-left: 20px;
+}
+#userButtons .user-button-item a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 15px;
+}
+#userButtons .user-button-item a:hover {
+	color: #848388;
+}
+#userButtons .user-button-item:nth-child(2) {
+	width: 37px;
+	margin-top: -7px;
+	text-align: center;
+}
+#userButtons .user-button-item:last-of-type {
+	padding-right: 0;	
+}
+#userButtons .user-button-item span {
+	position: relative;
+	bottom: 7px;
+	left: 5px;
+}
+
+/************************
+**Begin Main Navigation**
+************************/
+
+#navWrapper {
+	width: 100%;	
+	background-color: #333;
+	height: 40px;
+}
+#mainNav {
+	overflow: hidden;
+}
+#mainNav #main-nav-items {
+	overflow: hidden;
+	margin-left: 6px;
+}
+#mainNav #main-nav-items .main-nav-item {
+	float: left;	
+	padding: 9px 13px 9px 13px;
+}
+#mainNav #main-nav-items .main-nav-item:hover {
+	background-color: #848388;
+	border-radius: 10px 10px 0 0;
+}
+#mainNav #main-nav-items .main-nav-item a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 18px;
+}
+#mainNav #main-nav-items .main-nav-item a img {
+	padding-left: 10px;	
+	width: 15px;
+}
+
+/********************************
+**Begin Wheels Drop Down Styles**
+********************************/
+.wheelsDrop {
+	width: 87px;
+	position: relative;
+}
+.wheelsDrop:hover #subNav {
+	display: block;
+}
+#subNav {
+	display: none;
+	position: relative; 
+	z-index: 99;
+	background-color: #848388;
+	width: 960px;
+	top: 9px;
+	left: -625px;
+	overflow: hidden;
+}
+.sub-nav-items {
+	width: 150px;
+	margin-left: 50px;
+	padding: 20px 0 0;	
+	float: left;
+}
+.sub-nav-item {
+	padding-bottom: 10px	
+}
+.sub-nav-item:first-child {
+	font-size: 19px !important;	
+	color: #fff;
+}
+.sub-nav-item:nth-child(n + 2) a {
+	font-size: 15px !important;
+}
+.sub-nav-item a:hover {	
+	color: #333 !important;
+}
+#navManualImage {
+	float: left;
+	width: 120px;
+	padding: 20px 0;
+}
+#navManualImage p {
+	color: #fff;
+	font-size: 19px;
+	margin-left: 10px;
+	width: 120px;
+	text-align: center;
+	margin-bottom: 20px
+}
+#navManualImage img {
+	width: 100% !important;
+}
+#navAd {
+	float: right;
+	width: 300px;
+	height: 200px;
+	margin-right: 50px;
+	padding-top: 20px 
+}
+#navAd img {
+	width: 100% !important;	
+}
+
+/***********************
+**Begin Content Styles**
+***********************/
+
+#bodyWrapper {
+	/*height: 100px; temporary style*/
+}
+
+/********************************
+**Begin Vehicle Selector Styles**
+********************************/
+
+#vehicleSelector {
+	width: 855px;
+	overflow: hidden;
+	margin: 0 auto 30px;
+}
+#vehicleSelector #vehicleSelectorTitle {
+	height: 40px;
+	float: left;
+	width: 164px;
+	text-align: center;
+	border-radius: 5px 0 0 5px;
+	background-color: #333;
+}
+#vehicleSelector #vehicleSelectorTitle h3 {
+	margin-top: 10px;	
+	font-size: 17px;
+	color: #fff;
+}
+#vehicleSelector #selectorBar {
+	float: left;
+	height: 40px;
+	background-color: #e9eaee;
+	border-radius: 0 5px 5px 0;
+	width: 691px
+	
+}
+#vehicleSelector #selectorBar h3 {
+	float: left;	
+	font-size: 15px;
+	padding: 11.5px 20px;
+}
+#vehicleSelector #selectorBar h3:nth-child(1) {
+	margin-left: 20px 	
+}
+#vehicleSelector #selectorBar select {
+	float: left;
+	height: 34px;
+	margin-top: 3px;
+	width: 140px;
+
+}
+
+/****************************
+**Begin Weekly Deals Styles**
+****************************/
+#weeklyDeals {
+	padding-bottom: 9px;
+	margin-bottom: 30px;
+	border-bottom: 1px solid #333;
+}
+#weeklyDeals h3 {
+	margin-bottom: 10px;
+	color: #333;
+}
+#weeklyDeals #Ads {
+	width: 100%;	
+}
+#weeklyDeals #Ads img {
+	margin-right: 25px;	
+}
+#weeklyDeals #Ads img:hover {
+	opacity: .6;
+}
+#weeklyDeals #Ads img:last-of-type {
+	margin-right: 0;	
+}
+
+/*****************************
+**Begin Popular Items Styles**
+*****************************/
+
+#homePopularItems {
+	padding-bottom: 9px;
+	border-bottom: 1px solid #333;
+	margin-bottom: 30px;
+	height: 235px;
+}
+#homePopularItems h3 {
+	margin-bottom: 10px;
+}
+.slickSlider {
+	width: 920px;
+	margin: 0 auto
+}
+.slickSlider div {
+	position: relative;		
+}
+#homePopularItems img {
+	position: relative;	
+	margin: 0 5px;
+}
+#homePopularItems a:hover img {
+	opacity: .6;
+}
+#homePopularItems .quickLook {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 68px 0;
+	opacity: 0;
+}
+#homePopularItems .slickSlider a:hover .quickLook {
+	opacity: 1;
+}
+
+/**************************
+**Begin Top Brands Styles**
+**************************/
+
+.slickSlider2 {
+	width: 920px;
+	margin: 0 auto
+}
+#homeBrands img {
+	margin: 0 5px;
+}
+
+/**************************
+***************************
+***						***
+**						 **
+**		  Page 2         **
+**						 **
+***						***
+***************************
+**************************/
+
+#bodyLeftCol {
+	width: 190px;
+	float: left;
+	margin: 10px 20px 0 0;
+}
+#bodyLeftCol a, #bodyLeftCol p {
+	color: #333;
+	text-decoration: none;
+	font-size: 15px
+}
+#bodyLeftCol a:hover {
+	color: #fff;
+}
+#bodyLeftCol #yourVehicle {
+	
+}
+#bodyRightCol {
+	width: 750px;
+	float: left;
+	margin-top: 10px;
+}
+
+/*********************
+**Part Filter Styles**
+*********************/
+
+#yourVehicle {
+	margin-bottom: 10px	
+}
+#yourVehiclePic {
+	padding: 5px 0;
+}
+#yourVehicle #vehicleHeading {
+	background-color: #333;
+	height: 25px;
+	color: #fff;
+	text-align: center;
+}
+#yourVehicle #vehicleHeading h3 {
+	padding: 4px 0; 	
+}
+#yourVehicleTitle {
+	background-color: #e8e2c5;
+	height: 50px;
+	text-align: center;
+}
+#yourVehicleTitle p {
+	padding: 16px 0; 	
+}
+
+#menuFilter-brand,
+#menuFilter-size,
+#menuFilter-price,
+#menuFilter-rating,
+#menuFilter-color {
+	background-color: #e9eaee;
+	margin-bottom: 10px;
+}
+#bodyLeftCol ul {
+padding: 10px;	
+}
+#bodyLeftCol li {
+	padding-bottom: 10px;	
+}
+#bodyLeftCol li:first-of-type {
+	font-weight: bold	
+}
+#bodyLeftCol #menuFilter-rating img {
+	width: 90px;
+	float: left;
+	padding-right: 5px
+}
+#bodyLeftCol #menuFilter-rating p:hover {
+	color: #fff;	
+}
+
+/**********************
+**Right Column Styles**
+**********************/
+
+#breadCrumb p a {
+	color: #333;
+	text-decoration: none;
+}
+#breadCrumb p a:hover {
+	color: #848388;
+	
+}
+#wheelsBanner {
+	margin: 10px 0
+}
+
+#mainPageBestSellers,
+#mainPageOnSale,
+#mainPageFeatureBrands {
+	padding-bottom: 30px;
+}
+/***************************
+**Begin Best Seller Styles**
+***************************/
+
+#mainPageBestSellers .slickSlider {
+	width: 700px;
+	margin: 0 auto;
+	border-bottom: 1px solid #333;
+	padding: 10px 0 9px 0;
+}
+
+#mainPageBestSellers img {
+	position: relative;	
+	margin: 0 5px;
+}
+#mainPageBestSellers a:hover img {
+	opacity: .6;
+}
+#mainPageBestSellers .quickLook {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 68px 0;
+	opacity: 0;
+}
+#mainPageBestSellers .slickSlider a:hover .quickLook {
+	opacity: 1;
+}
+
+/******************************
+**Begin Sale this Week Styles**
+******************************/
+
+#mainPageOnSale .slickSlider {
+	width: 700px;
+	margin: 0 auto;
+	border-bottom: 1px solid #333;
+	padding: 10px 0 9px 0;
+}
+#mainPageOnSale img {
+	position: relative;	
+	margin: 0 5px;
+}
+#mainPageOnSale a:hover img {
+	opacity: .6;
+}
+#mainPageOnSale .quickLook {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 68px 0;
+	opacity: 0;
+}
+#mainPageOnSale .slickSlider a:hover .quickLook {
+	opacity: 1;
+}
+
+/*******************************
+**Begin Featured Brands Styles**
+*******************************/
+
+#mainPageFeatureBrands .slickSlider {
+	width: 700px;
+	margin: 0 auto;
+	border-bottom: 1px solid #333;
+	padding: 10px 0 9px 0;
+}
+#mainPageFeatureBrands img {
+	position: relative;	
+	margin: 0 5px;
+}
+#mainPageFeatureBrands a:hover img {
+	opacity: .6;
+}
+#mainPageFeatureBrands .quickLook {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 68px 0;
+	opacity: 0;
+}
+#mainPageFeatureBrands .slickSlider a:hover .quickLook {
+	opacity: 1;
+}
+
+/**************************
+***************************
+***						***
+**						 **
+**		  Page 3         **
+**						 **
+***						***
+***************************
+**************************/
+
+.activeFilter {
+	font-weight: bold;
+}
+#productListing1,
+#productListing2,
+#productListing3,
+#productListing4,
+#productListing5,
+#productListing6 {
+	width: 355px;
+	float: left;
+}
+#productListing1 a,
+#productListing2 a,
+#productListing3 a,
+#productListing4 a,
+#productListing5 a,
+#productListing6 a {
+	color: #333;
+	text-decoration: none;
+}
+#productListing1,
+#productListing3,
+#productListing5 {
+	margin-right: 20px;	
+}
+#productListings .productPrice {
+	margin-bottom: 10px;
+}
+.listingImage {
+	width: 210px;
+	margin-bottom: 10px;
+}
+.listingImage a:hover {
+	opacity: .8;	
+}
+.listingTitle {
+	margin-bottom: 5px;
+}
+.listingTitle h3 a:hover {
+	color: #848388;
+}
+.listingDescription {
+	line-height: 150%;
+	margin-bottom: 10px;
+}
+.listingRating {
+	margin-bottom: 30px	
+}
+#pagination {
+	clear: both;
+	width: 750px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+#pagination a {
+	color: #333;
+	text-decoration: none;
+	padding-right: 10px;
+}
+#pagination a:hover {
+	color: #848388;
+	text-decoration: underline;
+}
+
+/**************************
+***************************
+***						***
+**						 **
+**		  Page 4         **
+**						 **
+***						***
+***************************
+**************************/
+
+#backToResult {
+	margin: 10px 0;	
+}
+#backToResult p a {
+	color: #333;
+	text-decoration: none;
+}
+#backToResult p a:hover {
+	coloer: #848388;
+}
+
+/*****************************
+**Begin Product Image Styles**
+*****************************/
+
+#productImages {
+	float: left;
+	margin-right: 20px;
+}
+#productThumbnails {
+	float: left;
+	margin-right: 10px;
+}
+#productThumbnails img {
+	display: block;
+	margin-bottom: 10px;
+}
+#productDisplayImage {
+	float: left;	
+}
+
+/***************************
+**Begin Share and Reveiw Styles**
+***************************/
+
+#shareAndReview {
+	clear: both;
+	overflow: hidden;
+	margin-left: 60px;
+	margin-bottom: 10px;
+}
+#shareAndReview p {
+	float: left;
+	margin-right: 10px;
+	padding: 1px 0;
+}
+#shareAndReview img {
+	float: left;
+	margin-right: 10px;
+	width: 20px;
+}
+#shareAndReview #shareReview {
+	overflow: hidden;
+	float: left;
+}
+#shareAndReview #shareReview img {
+	width: 90px;
+}
+#shareAndReview p:last-child {
+	overflow: hidden;
+	float: left;
+	font-size: 13px;
+}
+
+/***************************
+**Begin User Choice Styles**
+***************************/
+
+#productUserChoices {
+	float: left;
+}
+#productUserChoices p,
+#productUserChoices h3 {
+margin-bottom: 10px
+}
+#productBrand {
+	font-size: 20px;	
+}
+#productFitment {
+	font-size: 18px;	
+}
+#listPrice {
+	font-size: 18px;
+}	
+#listPrice span {
+	text-decoration: line-through;	
+}
+#ourPrice {
+	font-size: 18px;	
+}
+#ourPrice span {
+	margin-right: 50px;	
+}
+#ourPrice a {
+	text-decoration: underline;
+	color: #333;
+}
+#productSavings {
+	font-size: 18px;	
+}
+#productSavings span {
+	margin-right: 50px;	
+}
+#productSavings span:last-child {
+	color: forestgreen	
+}
+#productQuantity {
+	height: 30px;
+	margin-bottom: 20px;
+}
+#productQuantity h3 {
+	float: left;
+	padding: 6px 20px 6px 0;
+}
+#productQuantity select {
+	float: left;
+	width: 50px;
+	height: 30px;
+}
+#productSize {
+	height: 30px;
+	margin-bottom: 20px;
+}
+#productSize h3 {
+	float: left;
+	padding: 6px 20px 6px 0;
+}
+#productSize select {
+	float: left;
+	width: 60px;
+	height: 30px;
+}
+#productColor {
+	height: 30px;
+	margin-bottom: 20px;
+}
+#productColor h3 {
+	float: left;
+	padding: 6px 20px 6px 0;
+}
+#productColor select {
+	float: left;
+	width: 120px;
+	height: 30px;
+}
+#productButtons {
+	overflow: hidden;
+	width: 440px;
+}
+#add2cartButtonTop {
+	float: left;
+	margin-right: 20px;
+}
+#add2cartButtonTop a {
+	color: #000;
+	text-decoration: none;
+}
+#add2wishListButtonTop {
+	float: left;
+}
+#productButtons .add2cartButton button {
+	width: 200px;
+	height: 40px;
+	border-radius: 10px;
+	background-color: #fbb03b;
+}
+#productButtons .add2wishListButton button {
+	width: 200px;
+	height: 40px;
+	border-radius: 10px;
+	background-color: #fbb03b;
+}
+
+/***********************************
+**Begin Product Description Styles**
+***********************************/
+
+#productDescription {
+	clear: both;
+	margin-bottom: 30px;
+}
+#tabs ul li {
+	float: left;
+	padding: 10px;
+	margin-right: 1px;
+	background-color: #333;
+}
+#tabs ul li a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 18px;
+}
+#tabs ul li a:hover {
+	color: #848388;
+}
+#tabs ul li:first-of-type {
+	border-right: none;	
+}
+#tabs div {
+	clear: both;
+}
+#tabs div p {
+	padding: 9px;
+	border: 1px solid #333;
+}
+
+/************************************
+**Begin Warranty and Support Styles**
+************************************/
+
+#productWarranty {
+	border-bottom: 1px solid #333;
+	margin-bottom: 30px;
+}
+#productWarranty h3 {
+	margin-bottom: 10px;
+	font-size: 18px;
+}
+#productWarranty p {
+	margin-bottom: 10px;	
+}
+#productWarranty p a {
+	color: #fbb03b;
+}
+#productWarranty p a:hover {
+	color: #848388;
+}
+
+/************************************
+**Begin Warranty and Support Styles**
+************************************/
+
+#productFeedback {
+	border-bottom: 1px solid #333;
+	margin-bottom: 30px;
+}
+#productFeedback h3 {
+	margin-bottom: 10px;
+	font-size: 18px;
+}
+#productFeedback p {
+	margin-bottom: 10px;	
+}
+#productFeedback p a {
+	color: #fbb03b;
+}
+#productFeedback p a:hover {
+	color: #848388;
+}
+
+/******************************
+**Begin Frequent Items Styles**
+******************************/
+
+#frequentlyBoughtTogether {
+	border-bottom: 1px solid #333;
+	margin-bottom: 30px;
+	overflow: hidden;
+}
+#frequentlyBoughtTogether h3 {
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+#frequentlyBoughtTogether .addOnItem {
+	float: left;
+}
+#frequentlyBoughtTogether .addOnItem img {
+	width: 100px;
+}
+#frequentlyBoughtTogether #addition {
+	float: left;
+	padding: 40px 20px;
+}
+#frequentlyBoughtTogether #equals {
+	float: left;
+	padding: 40px 20px;
+}
+#subProductButtons {
+	width: 200px;
+	float: left;
+	margin-bottom: 10px;
+}
+#add2cartButtonSub {
+	float: left;
+	margin-right: 20px;
+}
+#add2wishListButtonSub {
+	float: left;
+}
+#subProductButtons .add2cartButton button {
+	width: 200px;
+	height: 40px;
+	border-radius: 10px;
+	background-color: #fbb03b;
+	margin-bottom: 10px;
+}
+#subProductButtons .add2wishListButton button {
+	width: 200px;
+	height: 40px;
+	border-radius: 10px;
+	background-color: #fbb03b;
+}
+#addItemCheckBoxes {
+	float: left;
+	margin-left: 20px;
+}
+#addItemCheckBoxes form input {
+	margin-bottom: 10px;	
+}
+
+/**********************
+**Begin Footer Styles**
+**********************/
+
+#purchasedThisAlso {
+	border-bottom: 1px solid #333;
+	margin-bottom: 30px;
+	overflow: hidden;
+}
+#purchasedThisAlso h3 {
+	margin-bottom: 10px;
+	font-size: 18px;
+}
+.purchaseThisToo {
+	float: left;
+	width: 160px;
+	margin: 0 20px 10px 0;
+	
+}
+.purchaseThisToo img:first-of-type {
+	width: 150px;
+	margin-bottom: 10px;
+}
+.purchaseThisToo h4 {
+	margin-bottom: 5px
+}
+.purchaseThisToo p {
+	margin-bottom: 10px
+}
+.purchaseThisToo img:last-of-type {
+	width: 91px;	
+}
+
+/******************************
+**Begin Product Review Styles**
+******************************/
+
+#productReviews {
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+#productReviews a {
+	color: #fbb03b;
+}
+#productReviews a:hover {
+	color: #848388;
+}
+#productReviews h3 {
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+#reviewVisualSummary #reviewLinks img {
+	float: left;
+	margin: 0 10px 10px 0;
+}
+#reviewVisualSummary #reviewLinks p { 
+	float: left;
+	padding-top: 2px;
+}
+#reviewVisualSummary > p {
+	clear: both;
+	margin-bottom: 10px;
+}
+#customerReviewsSection > p {
+	margin-bottom: 15px;
+}
+.review p {
+	margin-bottom: 10px;
+}
+.review p span {
+	font-weight: bold
+}
+.customerReview {
+	clear: both;
+	overflow: hidden;
+	border-bottom: 1px solid #333;
+	margin-bottom: 30px;
+}
+.customerReview:last-child {
+	margin-bottom: 0;
+	border-bottom: none;
+}
+.customerReview .review {
+	width: 480px;
+	float: left;
+}
+.customerReview .ageAndrecommend {
+	float: left;
+}
+.customerReview .ageAndrecommend p {
+	margin-bottom: 5px	
+}
+
+/**************************
+***************************
+***						***
+**						 **
+**		  Page 5         **
+**						 **
+***						***
+***************************
+**************************/
+
+/***********************************
+**Begin Shopping Cart Items Styles**
+***********************************/
+
+#itemAdded {
+	float: right;
+	margin-top: 30px;
+}
+.cartPageTitles {
+	clear: both;	
+}
+.cartPageTitles h2 {
+	font-size: 24px;
+	margin-bottom: 30px;
+}
+#cartItem {
+	padding-bottom: 9px;
+	border-bottom: 1px solid #333;
+	overflow: hidden;
+	margin-bottom: 30px;
+}
+#cartItem h3 {
+	margin-bottom: 10px;
+	font-size: 19px;
+}
+#cartItemImage {
+	float: left;
+}
+#cartItemImage img {
+	float: left;
+	margin-right: 20px;
+}
+#cartItemDescription {
+	float: left;
+	margin-right: 50px;
+}
+#cartItemDescription p {
+	margin-bottom: 5px;	
+}
+#cartItemDescription p span {
+	margin-left: 50px;
+	color: forestgreen;
+}
+#cartItemDescription p a {
+	color: #000; 	
+}
+#cartItemUnitPrice {
+	float: left;
+	margin-right: 50px;
+}
+#cartItemQty {
+	float: left;
+	margin-right: 50px;
+}
+
+/*****************************
+**Begin Order Summary Styles**
+*****************************/
+
+#cartItemOrderSummary {
+	padding-bottom: 9px;
+	border-bottom: 1px solid #333;
+	overflow: hidden;
+	margin-bottom: 30px;	
+}
+#cartItemOrderSummary h3 {
+	font-size: 19px;
+	margin-bottom: 10px;
+}
+#floatSummaryBox {
+	float: left;
+}
+.itemSummaryBox {
+	border: 1px solid #333;
+	width: 300px;
+	overflow: hidden;
+}
+.summaryLeftCol {
+	float: left;
+	margin-left: 20px;	
+}
+.summaryRightCol {
+	float: right;
+	margin-right: 20px;	
+}
+.itemSummaryBox p {
+	margin-bottom: 30px;
+	font-size: 20px;
+	
+}
+.itemSummaryBox p:first-child {
+	margin-top: 10px
+}
+.itemSummaryBox p:last-child {
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+#applyCoupon {
+	width: 272px;
+	height: 35px;
+	position: relative;
+	float: left;
+	margin-left: 50px;
+}
+#applyCoupon #couponInputField {
+	border: none;
+	border-radius: 8px;
+	padding: 0 95px 0 10px;
+	height: 35px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	border: 1px solid #333;
+}
+#applyCoupon #couponSubmitButton {
+	width: 75px;
+	height: 37px;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+#orderSummaryButtons {
+	float: left;
+	width: 235px;
+	margin-left: 50px;
+}
+#proceedToCheckoutButton button {
+	width: 235px;
+	height: 35px;
+	background-color: #fbb03b;
+	border-radius: 10px;
+	margin-bottom: 10px;
+}
+#proceedToCheckoutButton button a {
+	color: #000;
+	text-decoration: none;
+}
+#payPalButton button {
+	width: 235px;
+	height: 35px;
+	background-color: #fbb03b;
+	border-radius: 10px;
+	position: relative;
+}
+#payPalButton button img {
+	position: relative;
+	top: 5.5px;
+}
+
+/**************************
+***************************
+***						***
+**						 **
+**		  Page 6         **
+**						 **
+***						***
+***************************
+**************************/
+
+/**************************************************
+**Begin New and Returning Customer Sign In Styles**
+**************************************************/
+
+#oldAndNewCust {
+	overflow: hidden;
+	border-bottom: 1px solid #333;
+	padding-bottom: 10px;
+	margin-bottom: 30px;
+}
+#returningCustomer {
+	overflow: hidden;
+	float: left;
+	padding-right: 50px;
+}
+#newCustomer {
+	float: left;
+	overflow: hidden;
+	padding-left: 49px;
+	border-left: 1px solid #333;
+	position: relative;
+}
+#newCustomer h3 {
+	font-size: 21px;
+	margin-bottom: 10px;
+}
+#returningCustomer h3 {
+	font-size: 21px;
+	margin-bottom: 10px;
+}
+.formTitles {
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+.formTitles p {
+	padding: 6px 0;
+	margin-bottom: 10px
+}
+.formFields {
+	float: left;
+	margin-bottom: 10px
+}
+.formFields input {
+	float: left;
+	clear: both;
+	height: 26px;
+	width: 290px;
+	border-radius: 10px;
+	padding-left: 10px;
+	margin-bottom: 10px
+}
+#createAccountButton img {
+	height: 40px;	
+}
+#returnSignInButton img {
+	height: 40px;	
+}
+
+/******************************************
+**Begin Guest and Facebook Sign In Styles**
+******************************************/
+#guestAndFB {
+	overflow: hidden;
+	padding-bottom: 10px;
+	margin-bottom: 30px;
+}
+#guest {
+	float: left;
+	margin-bottom: 10px
+}
+#guest img {
+	width: 90px;
+}
+#guest h3 {
+	font-size: 21px;
+	margin-bottom: 10px;
+}
+#facebookSignUp {
+	float: left;
+	margin-left: 278px;
+	padding-left: 49px;
+	border-left: 1px solid #333;
+}
+#facebookSignUp h3{
+	font-size: 21px;
+	margin-bottom: 10px;	
+}
+#facebookSignUp img {
+	height: 40px;	
+}
+
+/**************************
+***************************
+***						***
+**						 **
+**		  Page 7         **
+**						 **
+***						***
+***************************
+**************************/
+
+/********************************
+**Begin Shipping Address Styles**
+********************************/
+
+#sameAsBilling {
+margin-bottom: 10px	
+}
+
+/************************
+**Begin Shipping Styles**
+************************/
+
+#shippingMethod {
+	overflow: hidden;
+	padding-bottom: 10px;
+	margin-bottom: 30px;
+	border-bottom: 1px solid #333;
+}
+#shippingMethod h3{
+	font-size: 21px;
+	margin-bottom: 10px;
+}
+
+#oldAndNewCust {
+	padding-bottom: 10px;
+	margin-bottom: 30px;
+}
+#shippingSpeed input {
+	margin-bottom: 10px;
+}
+
+/***********************
+**Begin Payment Styles**
+***********************/
+#payment {
+	float: left;
+}
+#payment > h3 {
+	font-size: 21px;
+	margin-bottom: 10px;
+}
+#cardType h3 {
+	margin-bottom: 10px;
+	float: left;
+	padding: 10px 0;
+	margin-right: 10px;
+}
+#payWithCC {
+	margin: 10px 0;	
+}
+#cardType {
+	margin-bottom: 10px;
+	clear: both;
+}
+#payment form {
+	margin-bottom: 10px;
+	float: left;
+	clear: both;
+}
+#cardNumber {
+	overflow: hidden;
+	float: left;
+}
+#cardNumber h3 {
+	float: left;
+	padding: 10px 0;
+	margin-right: 10px;
+}
+#cardNumber input {
+	border-radius: 10px;
+	margin-bottom: 10px;
+	height: 35px;
+	padding-left: 10px;
+	float: left;
+}
+#expiration h3 {
+	float: left;
+	margin-right: 10px;
+	padding: 10px 0;
+	margin-bottom: 10px;
+}
+#expiration select {
+margin-bottom: 10px;
+}
+#cardSC {
+	overflow: hidden;
+	float: left;
+	clear: both;
+}
+#cardSC h3 {
+	float: left;
+	padding: 10px 0;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+#cardSC input {
+	height: 35px;
+	border-radius: 10px;
+	margin-bottom: 10px;
+	padding-left: 10px;
+	float: left;
+}
+#payWithPayPal {
+	position: relative;	
+}
+#payWithPayPal img {
+	position: relative;
+	top: 5px;
+}
+#summary {
+	float: left;
+	margin-left: 300px;
+}
+#summary h3 {
+	font-size: 21px;	
+}
+#floatSummaryBoxPayment {
+	margin-bottom: 30px;	
+}
+#paymentSubmitButton img {
+	height: 40px;	
+	margin-bottom: 10px;
+}
+
+/**************************
+***************************
+***						***
+**						 **
+**		  Page 7         **
+**						 **
+***						***
+***************************
+**************************/
+
+#customerInfo {
+	float: left;	
+}
+#customerInfo h3 {
+	margin-bottom: 10px;	
+	font-size: 21px
+}
+#customerInfo p {
+	margin-bottom: 5px;	
+}
+#customerInfo input {
+	margin-bottom: 10px;
+}
+#confirmShippingBilling {
+	overflow: hidden;
+	width: 610px;
+	padding-bottom: 9px;
+	border-bottom: 1px solid #333;
+	margin-bottom: 30px;
+}
+#confirmPaymentShipping {
+	overflow: hidden;
+}
+#confirmShipping {
+	float: left;
+	width: 305px;
+}
+#confirmBilling {
+	float: left;
+	width: 275px;
+	padding-left: 29px;
+	border-left: 1px solid #333;
+}
+#confirmPayment {
+	float: left;
+	width: 305px;
+}
+#confirmSpeed {
+	float: left;
+	width: 275px;
+	padding-left: 29px;
+	border-left: 1px solid #333;
+}
+#reviewOrder {
+	float: left;
+	margin-left: 30px;
+	margin-bottom: 30px
+}
+#reviewOrder h3 {
+	font-size: 21px;	
+}
+#orderButton {
+	float: left;
+	margin-left: 30px;
+	margin-bottom: 10px
+}
+#orderButton img {
+height: 40px;	
+}
+/**********************
+**Begin Footer Styles**
+**********************/
+
+#footerWrapper {
+	width: 100%;
+	clear: both;
+}
+
+#footerAds {
+	width: 100%;
+	background-color: #333;
+	height: 50px;
+}
+#footerAdsContent {
+	overflow: hidden;
+	width: 871px;
+	padding: 14.5px 0
+}
+#footerAdsContent p {
+	float: left;
+	color: #fff;
+	font-size: 18px;
+	padding-right: 46px;
+}
+#footerAdsContent p:last-of-type {
+	padding-right: 0;	
+}
+#footerUI {
+	height: 235px;	
+	background-color: #2677ae;
+	width: 100%;
+}
+#footerUIContent {
+	overflow: hidden;
+}
+.footerCol {
+	float: left;
+	height: 235px;
+}
+#footerLeftCol {
+	width: 396px;
+	border-right: 1px solid #000;
+}
+#footerLeftCol .footerNav {
+	float: left;
+	margin-top: 30px;
+}
+#footerLeftCol .footerNav li {
+	padding: 0 21px 10px 0;
+}
+#footerLeftCol .footerNav li:first-of-type {
+	font-size: 18px;
+	color: #fff;
+	
+}
+#footerLeftCol .footerNav .footer-nav-item a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 15px;
+}
+#footerLeftCol .footerNav .footer-nav-item a:hover {
+	color: #848388;
+}
+#footerCenterCol {
+	width: 311px;
+}
+#footerCenterCol #footerCenterColContent {
+	margin-top: 30px;
+	margin-left: 20px;
+}
+#footerCenterCol h3 {
+	color: #fff;
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+#footerCenterCol #footerCenterColContent #subNavEmailInput {
+	width: 272px;
+	height: 35px;
+	position: relative;
+}
+#footerCenterCol #footerCenterColContent #subNavEmailInput #subNavInput {
+	border: none;
+	border-radius: 8px;
+	padding: 0 80px 0 10px;
+	height: 35px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+#footerCenterCol #footerCenterColContent #subNavEmailInput #subNavSubmitButton {
+	width: 75px;
+	height: 35px;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+#footerCenterCol #footerCenterColContent img {
+	height: 100px;
+	margin-top: 10px;
+	float: left;
+}
+#footerCenterCol #footerCenterColContent #manualPitch {
+	float: left;
+	margin: 10px;
+}
+#footerCenterCol #footerCenterColContent #manualPitch a {
+	text-decoration: none;
+}
+#footerCenterCol #footerCenterColContent #manualPitch p a:hover {
+	color: #848388;
+}
+#footerCenterCol #footerCenterColContent #manualPitch p a {
+	color: #fff;
+	font-size: 15px;
+	line-height: 150%;
+}
+#footerRightCol {
+	width: 269.5px;
+	border-left: 1px solid #000;
+}
+#footerRightCol #footerRightColContent {
+	margin: 30px 0 0 20px;	
+}
+#footerRightCol #footerRightColContent #subNavLogo {
+	margin-bottom: 10px;	
+}
+#footerRightCol #footerRightColContent #socialButtons {
+	margin-bottom: 10px;
+	width: 194px;
+	margin: 10px auto;
+}
+#footerRightCol #footerRightColContent #credibilityIcons {
+	width: 207px;
+	margin: 0 auto;
+}
+#footerRightCol #footerRightColContent #credibilityIcons a img {
+	padding: 0 20px	
+}
+#footerRightCol #footerRightColContent #socialButtons img {
+
+}
+#footerSubUtility {
+	width: 100%;
+	background-color: #333;
+	height: 30px;	
+}
+#footerSubUtility p {
+	font-size: 12px;
+	color: #fff;
+	text-align: center;
+	padding: 8px 0;
+}
+#footerSubUtility p a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 12px;
+}
+#footerSubUtility p a:hover {
+	color: #848388;	
+}

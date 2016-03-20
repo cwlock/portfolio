@@ -1,0 +1,355 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>BimmerUS</title>
+    <link type="text/css" rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/flexslider.css" type="text/css">
+    <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+  	<link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
+  	<link rel="stylesheet" type="text/css" href="css/dropdown.css"/>
+	
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+	<!--<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>-->
+   	 <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="//use.typekit.net/cjz2csk.js"></script>
+	<script>try{Typekit.load();}catch(e){}</script>
+	<script src="js/new.jquery.flexslider.js" type="text/javascript"></script>
+	<script src="js/slickFunctions.js" type="text/javascript"></script>
+	<script src="js/flexsliderFunction.js" type="text/javascript"></script>
+	
+	<script src="js/dropdownFunction.js" type="text/javascript"></script>
+	<script src="js/dropdown.js" type="text/javascript"></script>
+	<!--<script src="js/package.js" type="text/javascript"></script>
+    <script src="js/index.js" type="text/javascript"></script>-->
+    
+</head>
+<body>
+<!-- Begin Header -->
+	<header>
+		<div id="headerWrapper">
+			<div id="headerContent" class="container">
+				<!--BimmerUS Logo-->
+				<div id="bimmerUSLogo">
+					<a href="index.html"><img src="images/BimmerUSlogo.png" alt="BimmerUS Logo"/></a>
+				</div>
+				<!--Start Utility Buttons-->
+				<div id="utilityButtonWrapper">
+					<ul id="utilityButtons">
+						<li class="utility-button-item"><a href="#">Help</a></li>
+						<li class="utility-button-item"><a href="#">Chat</a></li>
+						<li class="utility-button-item"><a href="#">Contact Us</a></li>
+						<li class="utility-button-item"><a href="#">Gift Cards</a></li>
+					</ul><!--End Utility Buttons-->
+				</div>
+				<div id="headerDealsAd">
+					<p><a href="#">Today’s Deal: 20% off all <span>Brakes</span> and <span>Calipers</span></a></p>
+				</div><!--End Header Ad-->
+				<form id="headerSearch">
+					<input type="text" id="headerSearchBox" name="headerSearchBox" placeholder="Search by Keyword or Part #" />
+					<input type="image" id="headerSubmitButton" src="images/navSubmitButton.svg" name="headerSubmitButton" alt="submit" /> 
+				</form><!-- End Nav Search -->
+				<div id="userButtons">
+					<ul>
+						<li class="user-button-item"><a href="#">Sign In</a></li>
+						<li class="user-button-item"><a href="#">Wish List</a></li>
+						<li class="user-button-item"><a href="#"><img src="images/cart.svg" alt="Cart Button" style="width:30px"/><span>Cart</span></a></li>
+					</ul>
+				</div><!--End User Buttons-->
+			</div><!-- End Header Content -->
+		</div>
+		<nav id="navWrapper">
+			<nav id="mainNav" class="container">
+				<ul id="main-nav-items">
+					<li class="main-nav-item"><a href="#">Engine<img src="images/downArrow.svg" alt="Down Arrow" /></a>
+					</li>
+					<li class="main-nav-item"><a href="#">Brakes<img src="images/downArrow.svg" alt="Down Arrow" /></a></li>
+					<li class="main-nav-item"><a href="#">Suspension<img src="images/downArrow.svg" alt="Down Arrow" /></a></li>
+					<li class="main-nav-item"><a href="#">Transmission<img src="images/downArrow.svg" alt="Down Arrow" /></a></li>
+					<li class="main-nav-item"><a href="#">Lights<img src="images/downArrow.svg" alt="Down Arrow" /></a></li>
+					<li class="main-nav-item wheelsDrop"><a href="wheelsMain.html">Wheels<img src="images/downArrow.svg" alt="Down Arrow" /></a>
+						<nav id="subNav">
+							<ul class="sub-nav-items">
+								<li class="sub-nav-item">Brands</li>
+								<li class="sub-nav-item"><a href="#">AC Schnitzer</a></li>
+								<li class="sub-nav-item"><a href="#">Beyern</a></li>
+								<li class="sub-nav-item"><a href="#">D-Force</a></li>
+								<li class="sub-nav-item"><a href="#">Hamann</a></li>
+								<li class="sub-nav-item"><a href="#">Kelleners Sport</a></li>
+								<li class="sub-nav-item"><a href="wheelListings.html">VMR</a></li>
+								<li class="sub-nav-item"><a href="#">OE Wheels</a></li>
+							</ul>
+							<ul class="sub-nav-items">
+								<li class="sub-nav-item">Popular</li>
+								<li class="sub-nav-item"><a href="#">Bolts</a></li>
+								<li class="sub-nav-item"><a href="#">Spacers</a></li>
+							</ul>
+							<div id="navManualImage">
+								<p>Manual</p>
+								<a href="#"><img src="images/manual.jpg" alt="Manual" /></a>
+							</div>
+							<div id="navAd">
+								<a href="#"><img src="images/weekDeal4.png" alt="Manual" /></a>
+							</div>
+						</nav>
+					</li>
+					<li class="main-nav-item"><a href="#">Tires<img src="images/downArrow.svg" alt="Down Arrow" /></a></li>
+					<li class="main-nav-item"><a href="#">Accessories<img src="images/downArrow.svg" alt="Down Arrow" /></a></li>
+				</ul>	
+			</nav>
+		</nav><!-- End Nav -->
+	</header><!-- End Header Wrapper -->
+<!-- End Header -->
+		<div class="flexslider">
+		<ul class="flexslides">
+			<li>
+				<a href="#"><img src="images/heroAd1.png" alt="Hero Ad"/></a>
+			</li>
+			<li>
+				<a href="#"><img src="images/heroAd2.png" alt="Hero Ad"/></a>
+			</li>
+			<li>
+				<a href="#"><img src="images/heroAd3.png" alt="Hero Ad"/></a>
+			</li>
+		</ul>
+	</div><!--End Flex Slider-->
+	<div id="bodyWrapper" class="container">
+		<div id="vehicleSelector">
+			<div id="vehicleSelectorTitle">
+				<h3>Shop Your Vehicle</h3>
+			</div>
+			<div id="selectorBar">
+				<h3>Year</h3>
+				<select name="year" class="ui dropdown" id="selectYear">
+					<option value="1980">1980</option>
+					<option value="1981">1981</option>
+					<option value="1982">1982</option>
+					<option value="1983">1983</option>
+					<option value="1984">1984</option>
+					<option value="1985">1985</option>
+					<option value="1986">1986</option>
+					<option value="1987">1987</option>
+					<option value="1988">1988</option>
+					<option value="1989">1989</option>
+					<option value="1990">1990</option>
+					<option value="1991">1991</option>
+					<option value="1992">1992</option>
+					<option value="1993">1993</option>
+					<option value="1994">1994</option>
+					<option value="1995">1995</option>
+					<option value="1996">1996</option>
+					<option value="1997">1997</option>
+					<option value="1998">1998</option>
+					<option value="1999">1999</option>
+					<option value="2001">2000</option>
+					<option value="2002">2001</option>
+					<option value="2003">2002</option>
+					<option value="2004">2003</option>
+					<option value="2005">2004</option>
+					<option value="2006">2005</option>
+					<option value="2007">2006</option>
+					<option value="2008">2007</option>
+					<option value="2009">2008</option>
+					<option value="2010">2009</option>
+					<option value="2010">2010</option>
+					<option value="2012">2012</option>
+					<option value="2013">2013</option>
+					<option value="2014">2014</option>
+					<option value="2015">2015</option>
+				</select>
+				<h3>Model</h3>
+				<select name="model" class="ui dropdown" id="selectModel">
+					<option value="1 Series M">1 Series M</option>
+					<option value="128i">128i</option>
+					<option value="135i">135i</option>
+					<option value="323i">323i</option>
+					<option value="328i">328i</option>
+					<option value="328i xDrive">328i xDrive</option>
+					<option value="335d">335d</option>
+					<option value="335i">335i</option>
+					<option value="335i xdrive">335i xdrive</option>
+					<option value="335is">335is</option>
+					<option value="528i">528i</option>
+					<option value="535i">535i</option>
+					<option value="535i GT">535i GT</option>
+					<option value="535i GT xDrive">535i GT xDrive</option>
+					<option value="550i">550i</option>
+					<option value="550i GT">550i GT</option>
+					<option value="550i GT xDrive">550i GT xDrive</option>
+					<option value="550i xDrive">550i xDrive</option>
+					<option value="740i">740i</option>
+					<option value="740Li">740Li</option>
+					<option value="750i">750i</option>
+					<option value="750i xDrive">750i xDrive</option>
+					<option value="750Li">750Li</option>
+					<option value="750Li xDrive">750Li xDrive</option>
+					<option value="760Li">760Li</option>
+					<option value="Alpina B7">Alpina B7</option>
+					<option value="Alpina B7 xDrive">Alpina B7 xDrive</option>
+					<option value="Alpina B7L">Alpina B7L</option>
+					<option value="Alpina B7L xDrive">Alpina B7L xDrive</option>
+					<option value="M3">M3</option>
+					<option value="X3">X3</option>
+					<option value="X5">X5</option>
+					<option value="X6">X6</option>
+					<option value="Z4">Z4</option>	
+				</select>
+				<h3>Trim</h3>
+				<select name="trim" class="ui dropdown" id="selectTrim">
+					<option value="Coupe">Coupe</option>
+					<option value="Sedan">Sedan</option>
+				</select>
+			</div>
+		</div>
+		<div id="weeklyDeals">
+			<h3>Deals of the Week</h3>
+			<div id="Ads">
+				<img src="images/weekDeal1.png" alt="Weekly Deal" />
+				<img src="images/weekDeal2.png" alt="Weekly Deal" />
+				<img src="images/weekDeal3.png" alt="Weekly Deal" />
+			</div>
+		</div>
+		<div id="homePopularItems">
+			<h3>Popular Items</h3>
+			<div class="slickSlider">
+				<div>
+					<a href="#"><img src="images/wheelSpacer200x200.png" alt="Wheel Spacer" />
+					<img src="images/quickLook.svg" alt="Quick Look" class="quickLook" /></a>
+				</div>
+				<div>
+					<a href="productDescription.html"><img src="images/vmr200x200.png" alt="VMR V710" />
+				<img src="images/quickLook.svg" alt="Quick Look" class="quickLook" /></a></div>
+				<div>
+					<a href="#"><img src="images/rotors200x200.png" alt="Rotors" />
+					<img src="images/quickLook.svg" alt="Quick Look" class="quickLook" /></a>
+				</div>
+				<div>
+					<a href="#"><img src="images/brakePads200x200.png" alt="Brake Pads" />
+					<img src="images/quickLook.svg" alt="Quick Look" class="quickLook" /></a>
+				</div>
+				<div>
+					<a href="#"><img src="images/muffler200x200.png" alt="Muffler" />
+					<img src="images/quickLook.svg" alt="Quick Look" class="quickLook" /></a>
+				</div>
+			</div>
+		</div><!--End Popular Items-->
+		<div id="homeBrands">
+			<h3>Top Brands</h3>
+			<div class="slickSlider2">
+				<div>
+					<a href="#"><img src="images/brembo120x100.png" alt="Brembo" class="mouseOverImage"/></a>
+				</div>
+				<div>
+					<a href="#"><img src="images/enkei120x100.png" alt="Enkei" class="mouseOverImage"/></a>
+				</div>
+				<div>
+					<a href="#"><img src="images/toyo120x100.gif" alt="Toyo" class="mouseOverImage"/></a>
+				</div>
+				<div>
+					<a href="#"><img src="images/konig120x100.png" alt="Konig" class="mouseOverImage"/></a>
+				</div>
+				<div>
+					<a href="#"><img src="images/yokohama120x100.png" alt="Yokohama" class="mouseOverImage"/>
+					</a>
+				</div>
+				<div>
+					<a href="#"><img src="images/bbs120x100.png" alt="BBS" class="mouseOverImage"/>
+					</a>
+				</div>
+				<div>
+					<a href="#"><img src="images/tsw120x100.png" alt="TSW" class="mouseOverImage"/>
+					</a>
+				</div>
+				<div>
+					<a href="#"><img src="images/corsa120x100.gif" alt="Corsa" class="mouseOverImage"/>
+					</a>
+				</div>
+				<div>
+					<a href="#"><img src="images/proComp120x100.png" alt="Pro Comp" class="mouseOverImage"/>
+					</a>
+				</div>
+			</div>
+		</div><!--End Popular Items-->
+	</div><!-- End Content -->
+	<footer id="footerWrapper">
+		<div id="footerAds">
+			<div id="footerAdsContent" class="container">
+				<p>Free Shipping on Orders Over $150</p>
+				<p>Lowest Prices Guaranteed</p>
+				<p>Best Warranty</p>
+				<p>Easy Returns</p>
+			</div>	
+		</div>
+		<div id="footerUI">
+			<div id="footerUIContent" class="container">
+				<div id="footerLeftCol" class="footerCol">
+					<ul class="footerNav">
+						<li>Get to Know Us</li>
+						<li class="footer-nav-item"><a href="#">Company Info</a></li>
+						<li class="footer-nav-item"><a href="#">Testimonials</a></li>
+						<li class="footer-nav-item"><a href="#">Press Releases</a></li>
+					</ul>
+					<ul class="footerNav">
+						<li>Support</li>
+						<li class="footer-nav-item"><a href="#">Contact Us</a></li>
+						<li class="footer-nav-item"><a href="#">Help</a></li>
+						<li class="footer-nav-item"><a href="#">Returns</a></li>
+						<li class="footer-nav-item"><a href="#">Exchanges</a></li>
+						<li class="footer-nav-item"><a href="#">Gift Cards</a></li>
+						<li class="footer-nav-item"><a href="#">FAQs</a></li>
+					</ul>
+					<ul class="footerNav">
+						<li>Account</li>
+						<li class="footer-nav-item"><a href="#">Wish List</a></li>
+						<li class="footer-nav-item"><a href="#">Order History</a></li>
+						<li class="footer-nav-item"><a href="#">Email Preferences</a></li>
+					</ul>
+				</div>
+				<div id="footerCenterCol" class="footerCol">
+					<div id="footerCenterColContent">
+						<h3>BimmerUS Email List</h3>
+						<form id="subNavEmailInput">
+							<input type="email" id="subNavInput" name="subNavInput" placeholder="Enter Email Address" />
+							<input type="image" id="subNavSubmitButton" src="images/subNavSubmit.svg" name="subNavSubmitButton" alt="submit" /> 
+						</form>
+						<div id="manualImage">
+							<a href="#"><img src="images/manual.jpg" alt="Manual" /></a>
+						</div>
+						<div id="manualPitch">
+							<p><a href="#">Free Manuals<br>With Every<br>Purchase!</a></p>
+						</div>
+					</div>
+				</div>
+				<div id="footerRightCol" class="footerCol">
+					<div id="footerRightColContent">
+						<div id="subNavLogo">
+							<a href="#"><img src="images/BimmerUSlogo.png" alt="Sub Nav Logo" /></a>
+						</div>
+						<div id="socialButtons">
+							<a href="#"><img src="images/socialFacebook.png" alt="Facebook"/></a>
+							<a href="#"><img src="images/socialInsta.png" alt="Instagram"/></a>
+							<a href="#"><img src="images/socialTwitter.png" alt="Twitter"/></a>
+							<a href="#"><img src="images/socialPinterest.png" alt="Pinterest"/></a>
+						</div>
+						<div id="credibilityIcons">
+							<a href="#"><img src="images/BBB.gif" alt="BBB" /></a>
+							<a href="#"><img src="images/googleVerified.png" alt="Google Verified" /></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="footerSubUtility">
+			<div id="footerSubUtilityContent" class="container">
+				<p>Copyright © 2015 BimmerUS , Inc. - All Rights Reserved. - <a href="#">Terms of Use</a> | <a href="#">Your Privacy Rights</a> | <a href="#">Purchase Terms &amp; Conditions</a></p>
+			</div>
+		</div>
+	</footer>
+
+ 	
+  	<script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  	<script type="text/javascript" src="js/slick.min.js"></script>
+  	<script type="text/javascript" src="js/dropdown.min.js"></script>
+</body>
+</html>
