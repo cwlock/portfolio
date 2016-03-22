@@ -35,6 +35,9 @@
 	color: #fff;
 	padding-top: 0;	
 }
+#visualDesign h3 {
+	text-align: center;	
+}
 #uxSitemap p {
 	margin: 0 auto 50px;
 }
@@ -190,7 +193,9 @@
 	font-family: Roboto;
 	line-height: 1.5;	
 }
-
+#VDlinks {
+	text-align: center;
+}
 /*BimmerUS*/
 #BimmerUSinfoArch img {
 	margin-bottom: 50px;	
