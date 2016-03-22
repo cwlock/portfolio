@@ -53,10 +53,13 @@
 #colorAndFont h3 {
 	margin-top: 0;	
 }
+#colorAndFont h5 {
+	text-align: center;
+}
 #color {
 	overflow: hidden;
 	max-width: 400px;
-	margin: 0 auto 50px;
+	margin: 50px auto 50px;
 	float: none;
 }
 #color p {
