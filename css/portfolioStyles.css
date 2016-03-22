@@ -56,6 +56,9 @@
 #colorAndFont h3 {
 	margin-top: 0;	
 }
+#colorAndFont h5 {
+	text-align: center;
+}
 #color {
 	overflow: hidden;
 	max-width: 400px;
