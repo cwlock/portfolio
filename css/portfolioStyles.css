@@ -276,7 +276,20 @@
 	font-family: 'Museo Sans', 'open sans';
 	line-height: 1.5;
 }
-
+#bimmerCodeSample {
+	padding-top: 0;	
+}
+#bimmerCodeSample h3 {
+	color: #fff;	
+}
+#htmlCodeSample {
+	height: 300px;
+	overflow: scroll;
+}
+#cssCodeSample {
+	height: 300px;
+	overflow: scroll;
+}
 
 /*A.Codd*/
 .coddImageMain img {
