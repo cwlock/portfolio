@@ -341,6 +341,25 @@ object {
 }
 
 /*Microsoft*/
+#MicrosoftHeader i {
+	color: #fff;
+	-o-transition:.2s;
+	-ms-transition:.2s;
+	-moz-transition:.2s;
+	-webkit-transition:.2s;
+	transition:.2s;
+}
+
+#MicrosoftHeader i:hover {
+	color: #4bace2;
+}
+
+#MicrosoftHeader a {
+	position: relative;
+	padding: 20px;
+	top: 50px;
+}
+
 .roleList {
 	margin-bottom: 35px;	
 }
@@ -399,6 +418,45 @@ object {
 .microsoftProjects p {
 	display: block;
 	overflow: hidden;
+}
+
+#vertical {
+	height: 400px;
+	background: url('../img/finance.jpg');
+	background-size: cover;
+	background-position: center;
+	-webkit-display: flex;
+	display: flex;
+	-webkit-flex-direction: column;
+	flex-direction: column;
+	-webkit-flexwrap: nowrap;
+	flex-wrap: nowrap;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-align-items: center;
+	align-items: center;
+}
+
+#vertical h1 {
+	-webkit-display: flex;
+	display: flex;
+	-webkit-justify-content: center;
+	justify-content: center;
+	margin: 0;
+	color: #fff;
+}
+
+#findMyAdvisor p {
+	max-width: 600px;
+	margin-bottom: 35px;
+}
+
+#findMyAdvisor h3 {
+	max-width: 600px;	
+}
+
+#findMyAdvisor .mobile_mock {
+	height: 600px	
 }
 
 /*Media Queries*/
