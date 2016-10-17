@@ -340,6 +340,67 @@ object {
 	margin: 50px 0;	
 }
 
+/*Microsoft*/
+.roleList {
+	margin-bottom: 35px;	
+}
+
+#microsoftContents #tableOfContents {
+	overflow: hidden;
+}
+
+#microsoftContents p {
+	float: left;
+	margin-right: 100px;	
+	color: #00a4ef;
+	font-size: 1.5em;
+}
+
+#microsoftContents a {
+	color: #333;	
+}
+
+#microsoftContents a:hover  {
+	text-decoration: none;
+	color: #4bace2;
+}
+
+#projects {
+	float: left;	
+}
+
+#microsoftContents ul {
+	padding: 0;
+	list-style-type: none;
+	line-height: 1.5;
+	overflow: hidden;
+}
+
+.microsoftProjects .listPosition {
+	font-size: 5em;
+	color: #00a4ef;
+	float: left;
+	padding-right: 10px;
+	position: relative;
+	bottom: 20px;
+	clear: both;
+}
+
+.project_title {
+	color: #00a4ef;
+	font-size: 1.5em !important;
+}
+
+.microsoftProjects ul {
+	overflow: hidden;
+	float: left;
+}
+
+.microsoftProjects p {
+	display: block;
+	overflow: hidden;
+}
+
 /*Media Queries*/
 @media(min-width:768px) {
 	.navbar-default {
