@@ -96,6 +96,13 @@
 	width: 100%;
 }
 
+.back-to-top a {
+	font-size: 1.5em;	
+	font-family: 'roboto-light', "Helvetica Neue", Arial, sans-serif;
+	text-decoration: none;
+	float: right;
+}
+
 /*PBK*/
 #infoArchProc {
 	width: 100%;	
@@ -406,8 +413,15 @@ object {
 }
 
 .project_title {
-	color: #00a4ef;
 	font-size: 1.5em !important;
+}
+
+.project_title a:visited {
+	text-decoration: none;	
+}
+
+.project_title a:active {
+	text-decoration: none;	
 }
 
 .microsoftProjects ul {
@@ -437,13 +451,17 @@ object {
 	align-items: center;
 }
 
+#vertical span {
+	font-weight: 100;
+}
+
 #vertical h1 {
-	-webkit-display: flex;
-	display: flex;
-	-webkit-justify-content: center;
-	justify-content: center;
 	margin: 0;
 	color: #fff;
+}
+
+#findMyAdvisor {
+	position: relative;	
 }
 
 #findMyAdvisor p {
