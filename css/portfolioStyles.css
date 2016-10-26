@@ -434,7 +434,7 @@ object {
 	overflow: hidden;
 }
 
-#vertical {
+#verticalIntro {
 	height: 400px;
 	background: url('../img/finance.jpg');
 	background-size: cover;
@@ -448,33 +448,79 @@ object {
 	-webkit-justify-content: center;
 	justify-content: center;
 	-webkit-align-items: center;
-	align-items: center;
+	align-items: center; 
 }
 
-#vertical span {
+#verticalIntro span {
 	font-weight: 100;
 }
 
-#vertical h1 {
+#verticalIntro h1 {
 	margin: 0;
 	color: #fff;
 }
 
-#findMyAdvisor {
+.vertical-content {
 	position: relative;	
 }
 
-#findMyAdvisor p {
+.vertical-content p {
 	max-width: 600px;
 	margin-bottom: 35px;
 }
 
-#findMyAdvisor h3 {
-	max-width: 600px;	
+.vertical-content h3 {
+	max-width: 600px;
+	font-weight: 600;
+	font-size: 2em;
 }
 
-#findMyAdvisor .mobile_mock {
+.vertical-content i {
+	
+}
+
+.vertical-content .mobile_mock {
 	height: 600px	
+}
+
+#fmaIntro {
+	height: 400px;
+	background-image: url('../img/fmaIntro.jpg');
+	background-size: cover;
+	background-position: center;
+	-webkit-display: flex;
+	display: flex;
+	-webkit-flex-direction: column;
+	flex-direction: column;
+	-webkit-flexwrap: nowrap;
+	flex-wrap: nowrap;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-align-items: center;
+	align-items: center;
+	margin-bottom: 35px;
+}
+
+#fmaIntro h1 {
+	margin: 0;
+	color: #fff;
+}
+
+#findMyAdvisor p span {
+	font-weight: 600;
+}
+
+#findMyAdvisor h3 span {
+	font-weight: 600;
+}
+
+#findMyAdvisor blockquote {
+	font-family: 'times';
+	font-size: 2.5em;
+	max-width: 900px;
+	margin: 35px auto;
+	color: #00a4ef;
+	text-align: center;
 }
 
 /*Media Queries*/
