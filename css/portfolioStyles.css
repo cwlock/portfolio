@@ -424,6 +424,10 @@ object {
 	text-decoration: none;	
 }
 
+.project_list {
+	height: 120px
+}
+
 .microsoftProjects ul {
 	overflow: hidden;
 	float: left;
