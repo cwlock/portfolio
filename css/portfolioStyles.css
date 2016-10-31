@@ -538,6 +538,15 @@ a:hover.back-to-top {
 	text-align: center;
 }
 
+#findMyAdvisor ul {
+	list-style-type: circle;
+	font-size: 1.25em;	
+	font-family: roboto,'Helvetica Neue',Arial,sans-serif;
+	font-weight: 300;
+	line-height: 1.5;
+	max-width: 600px;
+}
+
 #whiteboard img {
 	width: 1000px;
 	margin: 35px auto;
@@ -548,17 +557,155 @@ a:hover.back-to-top {
 	margin: 35px auto;
 }
 
+#fmaMockup img {
+	width: 1000px;
+	margin: 35px auto;
+}
+
 #fmaProcess {
 	background-color: #f2f2f2;
 	margin-top: 35px;
 }
 
 #fmaProcess h1 {
-	font-size: 3em	
+	font-size: 3em;
 }
 
 #fmaProcess h3 {
-	font-size: 1.5em
+	font-size: 1.5em;
+}
+
+#fmaMobile {
+	background-color: #f2f2f2;	
+}
+
+#fmaMobile h3 {
+	font-size: 1.5em;
+	font-weight: 600;
+	margin-bottom: 35px
+}
+
+#fmaConcept h3 {
+	margin-bottom: 50px;
+	font-size: 1.5em;
+	font-weight: 600;
+}
+
+#fmaConcept ul {
+	list-style-type: none;
+	font-size: 1.5em;	
+	font-family: roboto,'Helvetica Neue',Arial,sans-serif;
+	font-weight: 300;
+	line-height: 1.5;
+	max-width: 600px;
+}
+
+#fmaConcept li:first-of-type {
+	font-weight: bold;
+}
+
+#fmaConcept li {
+	padding-bottom: 10px	
+}
+
+#fmaConcept ul span {
+	font-weight: 400;
+}
+
+#kycIntro {
+	height: 400px;
+	background-image: url('../img/kycIntro.png');
+	background-size: cover;
+	background-position: center;
+	-webkit-display: flex;
+	display: flex;
+	-webkit-flex-direction: column;
+	flex-direction: column;
+	-webkit-flexwrap: nowrap;
+	flex-wrap: nowrap;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-align-items: center;
+	align-items: center;
+	margin-bottom: 35px;
+}
+
+#kycIntro h1 {
+	margin: 0;
+	color: #fff;
+}
+
+#knowYourClient blockquote {
+	font-family: 'times new roman';
+	font-size: 2.25em;
+	max-width: 900px;
+	margin: 15px auto 35px;
+	color: #00a4ef;
+	text-align: center;
+}
+
+#knowYourClient ul {
+	list-style-type: circle;
+	font-size: 1.25em;	
+	font-family: roboto,'Helvetica Neue',Arial,sans-serif;
+	font-weight: 300;
+	line-height: 1.5;
+	max-width: 600px;
+}
+
+#kycSketches img {
+	width: 1000px;
+	margin: 35px auto;
+}
+
+#kycWire img {
+	width: 1000px;
+	margin: 35px auto;
+}
+
+#kycMockup img {
+	width: 1000px;
+	margin: 35px auto;
+}
+
+#kycProcess {
+	background-color: #f2f2f2;
+	margin-top: 35px;
+}
+
+#kycProcess h1 {
+	font-size: 3em;
+}
+
+#kycProcess h3 {
+	font-size: 1.5em;
+}
+
+#kycConcept h3 {
+	margin-bottom: 50px;
+	font-size: 1.5em;
+	font-weight: 600;
+}
+
+#kycConcept ul {
+	list-style-type: none;
+	font-size: 1.5em;	
+	font-family: roboto,'Helvetica Neue',Arial,sans-serif;
+	font-weight: 300;
+	line-height: 1.5;
+	max-width: 600px;
+}
+
+#kycConcept li:first-of-type {
+	font-weight: bold;
+}
+
+#kycConcept li {
+	padding-bottom: 10px	
+}
+
+#kycConcept ul span {
+	font-weight: 400;
 }
 /*Media Queries*/
 @media(min-width:768px) {

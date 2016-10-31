@@ -108,7 +108,7 @@
 							<ul>
 								<li class="project_title"><a class="page-scroll" href="#verticalIntro">Finance Vertical Scenarios</a></li>
 								<li><a class="page-scroll" href="#fmaIntro">Find My Advisor</a></li>
-								<li><a href="#">Know Your Client</a></li>
+								<li><a class="page-scroll" href="#kycIntro">Know Your Client</a></li>
 							</ul>
 						</ul>
 						<ul class="project_list microsoftProjects">
@@ -191,7 +191,20 @@
 			<div class="row challenge">
 				<div class="col-sm-12 vertical-content">
 					<h3 class="center-block">The Challenge</h3>
-					<p class="center-block">Help clients of Remote Advisors use a portal enhanced by Outlook services to conveniently self-schedule meetings with their advisor.</p>  
+					<p class="center-block">Help clients of Remote Advisors use a portal enhanced by Outlook services to conveniently self-schedule meetings with their advisor.</p>
+					<h3 class="center-block">The Discovery</h3>
+					<p class="center-block">We discovered that scheduling preferences were broken down into 3 major age brackets, Gen Y, Gen X and Baby Boomers.</p> 
+					<p class="center-block">Most preferred one-to-one personal communication methods such as email, formal meetings at the office and phone call, but there was a strong relationship between client satisfaction with their advisors and the number of communication channels provided. The more communication channels that were provided typically led to higher satisfaction.</p>
+					<p class="center-block">These insights pointed to a solution that was flexible, allowing users to select dates, times, and the mode of communication all at their fingertips.</p>  
+					<h3 class="center-block">The Requirements</h3>
+					<p class="center-block">Our research highlighted that keeping the application flexible would make the biggest impact.</p>
+					<p class="center-block">Subsequently, we focused our efforts on the following set of requirements:</p> 
+					<ul class="center-block">
+						<li>Date selection</li>
+						<li>Smart calendar to show only times available for both client and advisor</li>
+						<li>Communication channel type selection</li>
+						<li>Shared document library</li>
+					</ul>
 				</div>
 			</div>
 			<div class="row">
@@ -200,7 +213,7 @@
 			<div class="row">
 				<div class="col-sm-12 center-block vertical-content">
 					<h3 class="center-block">Persona</h3>
-					<p class="center-block"><span>The Client: </span>Justin Enlow has worked as a Real Estate Agent for 5 years. During this time he’s been heavily invested in the stock market. About 3 years ago, he hired Alice Siciliano to help handle his finances due to his limited hours during the day. As of late, he’s become interested in a company who just announced they are going public. Knowing this, he has concluded that he should speak with Alice to see if it’s a good investment option, but since his line of work causes some time constraints, he needs an easy way to see Alice’s availability and schedule a time to meet that fits his schedule, along with Alice’s.</p>
+					<p class="center-block">Justin Enlow has worked as a Real Estate Agent for 5 years. During this time he’s been heavily invested in the stock market. About 3 years ago, he hired Alice Siciliano to help handle his finances due to his limited hours during the day. As of late, he’s become interested in a company who just announced they are going public. Knowing this, he has concluded that he should speak with Alice to see if it’s a good investment option, but since his line of work causes some time constraints, he needs an easy way to see Alice’s availability and schedule a time to meet that fits his schedule, along with Alice’s.</p>
 				</div>
 			</div>
 		</div>
@@ -210,20 +223,149 @@
 			<div class="row">
 				<div class="col-sm-12 center-block vertical-content">
 					<h1 class="center-block text-center">My Process</h1>
-					<h3 class="center-block text-center">Sketches</h3>
+					<h3 class="center-block text-center">Whiteboard Sketches</h3>
 					<div id="whiteboard" class="row">
 						<div class="col-sm-12">
 							<img src="img/fmaWhiteBoarding1.jpg" class="center-block img-responsive" alt="Whiteboard Sketches">
 						</div>
 					</div>
-					<p class="center-block">Markers and sticky notes were my weapons of choice during the sketching phase. This allowed me to make quick and easy changes on the fly. I was able to pull off what I didn’t like and insert new ideas as they came to me. Any comments and suggestions were stuck right to the board to later incorporate into the following renditions.</p>
+					<p class="center-block">Quick sketches on the whiteboard helped establish the beginning stages of our UI. As these ideas began to take shape we were able to transition them into low-fidelity wireframes.</p>
 					<h3 class="center-block text-center">Wireframes</h3>
 					<div id="fmaWire" class="row">
 						<div class="col-sm-12">
 							<img src="img/fmaWire.png" class="center-block img-responsive" alt="Find My Advisor Wireframes">
 						</div>
 					</div>
-					<p class="center-block">Markers and sticky notes were my weapons of choice during sketch process. This allowed me to make quick and easy changes on the fly. I was able to pull off what I didn’t like and insert new ideas as they came to me.</p>
+					<p class="center-block">Once the wireframe process began I tried to morph my sketches into something a bit more understandable. This phase allowed previously unforeseen issues to surface and new ideas to take shape. In the end, we had a set of key UI elements and interactions that would help successfully complete the challenge.</p>
+					<h3 class="center-block text-center">Desktop Mockup</h3>
+					<div id="fmaMockup" class="row">
+						<div class="col-sm-12">
+							<img src="img/fmaHighFi.png" class="center-block img-responsive" alt="Find My Advisor Mockup">
+						</div>
+					</div>
+					<p class="center-block">Initially we foresaw this as a desktop graph application, which would allow clients a central location to meet virtually and schedule meetings that worked for both parties. However, our goal was to allow clients to schedule time with advisors anywhere and any time, which transitioned our design onto a mobile interface.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="fmaMobile" class="no-padding">
+		<div class="contianer-fluid">
+			<div class="row no-gutter">
+				<div class="col-sm-12">
+					<h3 class="center-block text-center">Mobile Mockup</h3>
+					<img class="img-responsive" src="img/fmaMockPreviews.png" alt="Find My Advisor Mobile Mockups">
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="fmaConcept">
+		<div class="container">
+			<div class="row">
+				<h3 class="center-block text-center">Concept Preview</h3>
+				<div class="row">
+					<div class="col-md-6">
+						<ul class="center-block">
+							<li>Instructions</li>
+							<li><span>Step 1:</span> Scroll down and select new appointment.</li>
+							<li><span>Step 2:</span> Date, meeting type and time have been pre selected. Click submit.</li>
+							<li><span>Step 3:</span> Join Meeting.</li>
+							<li><span>Step 4:</span> Call is in progress. End the call.</li>
+							<li><span>Step 5:</span> Navigate to your shared files.</li>
+						</ul>
+					</div>
+					<div class="col-md-6">
+						<iframe class="center-block" width="438" height="930" src="//invis.io/AY956JA6B" frameborder="0" allowfullscreen></iframe>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+				<!--Find My Advisor Ends-->
+	<section id="kycIntro">
+		<div class="container">
+			<div class="row">
+				<h1 class="text-center">Know Your Client</h1>
+			</div>
+		</div>
+	</section>
+	<section id="knowYourClient" class="no-padding">
+		<div class="container-fluid">
+			<div class="row challenge">
+				<div class="col-sm-12 vertical-content">
+					<h3 class="center-block">The Challenge</h3>
+					<p class="center-block">Help advisors stay current on changes in their clients’ lives and quickly reach out using a set of smart templates in Outlook.</p>
+					<h3 class="center-block">The Discovery</h3>
+					<p class="center-block">A major challenge we uncovered regarding client advisor relationships is the lack of up-to-date information advisors have on their clients.</p> 
+					<p class="center-block">As we all know, social media has become a major part of millions of peoples’ lives. The type of information people reveal consists of major and minor life changes that could be beneficial to the advisors helping these individuals.</p>
+					<h3 class="center-block">The Requirements</h3>
+					<p class="center-block">Throughout our investigation we discovered that advisors want some means of tracking their clients in order to accurately manage portfolios and make the most educated decisions regarding client finances.</p>
+					<p class="center-block">Efforts were focused on the following requirements:</p> 
+					<ul class="center-block">
+						<li>Social media connections</li>
+						<li>Smart email templates</li> 
+						<li>Smart email updates on client information changes</li>
+					</ul>
+				</div>
+			</div>
+			<div class="row">
+				<blockquote class="blockquote center-block">"I need to stay current in my clients' lives to increase their satisfaction."</blockquote>
+			</div>
+			<div class="row">
+				<div class="col-sm-12 center-block vertical-content">
+					<h3 class="center-block">Persona</h3>
+					<p class="center-block">Alice runs her own business as a Certified Financial Planner. As a CFP, she has multiple clients whom she must stay up-to-date with. Currently, she calls, emails, texts, and sets up personal meetings to make sure she is current and that she is accurate in her advice to maintain client satisfaction. A major challenge Alice frequently runs into is failed client communication regarding financially impacting events, such as major purchases, new investments and career changes to name a few.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="kycProcess">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 center-block vertical-content">
+					<h1 class="center-block text-center">My Process</h1>
+					<h3 class="center-block text-center">Sketches</h3>
+					<div id="kycSketches" class="row">
+						<div class="col-sm-12">
+							<img src="img/fmaLowFi.jpg" class="center-block img-responsive" alt="Whiteboard Sketches">
+						</div>
+					</div>
+					<p class="center-block">Quick sketches on the whiteboard helped establish the beginning stages of our UI. As these ideas began to take shape we were able to transition them into low-fidelity wireframes.</p>
+					<h3 class="center-block text-center">Wireframes</h3>
+					<div id="kycWire" class="row">
+						<div class="col-sm-12">
+							<img src="img/fmaWire.png" class="center-block img-responsive" alt="Find My Advisor Wireframes">
+						</div>
+					</div>
+					<p class="center-block">Once the wireframe process began I tried to morph my sketches into something a bit more understandable. This phase allowed previously unforeseen issues to surface and new ideas to take shape. In the end we had a set of key UI elements and interactions that would help successfully complete the challenge.</p>
+					<h3 class="center-block text-center">Desktop Mockup</h3>
+					<div id="kycMockup" class="row">
+						<div class="col-sm-12">
+							<img src="img/fmaHighFi.png" class="center-block img-responsive" alt="Find My Advisor Mockup">
+						</div>
+					</div>
+					<p class="center-block">Initially we foresaw this as a desktop graph application, which would allow clients a central location to meet virtually and schedule meetings that worked for both parties. However, our goal was to allow clients to schedule time with advisors anywhere and any time, which transitioned our design onto a mobile interface.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="kycConcept">
+		<div class="container">
+			<div class="row">
+				<h3 class="center-block text-center">Concept Preview</h3>
+				<div class="row">
+					<div class="col-md-6">
+						<ul class="center-block">
+							<li>Instructions</li>
+							<li><span>Step 1:</span> Scroll down and select new appointment.</li>
+							<li><span>Step 2:</span> Date, meeting type and time have been pre selected. Click submit.</li>
+							<li><span>Step 3:</span> Join Meeting.</li>
+							<li><span>Step 4:</span> Call is in progress. End the call.</li>
+							<li><span>Step 5:</span> Navigate to your shared files.</li>
+						</ul>
+					</div>
+					<div class="col-md-6">
+						<iframe class="center-block" width="438" height="930" src="//invis.io/AY956JA6B" frameborder="0" allowfullscreen></iframe>
+					</div>
 				</div>
 			</div>
 		</div>
