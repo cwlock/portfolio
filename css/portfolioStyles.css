@@ -895,6 +895,173 @@ a:hover.back-to-top {
 }
 
 /*End Pickit*/
+/*Begin Patterns*/
+#patternIntro {
+	height: 400px;
+	background: url('../img/patternIntro.png');
+	background-size: cover;
+	background-position: center;
+	-webkit-display: flex;
+	display: flex;
+	-webkit-flex-direction: column;
+	flex-direction: column;
+	-webkit-flexwrap: nowrap;
+	flex-wrap: nowrap;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-align-items: center;
+	align-items: center; 
+}
+
+#patternIntro span {
+	font-weight: 100;
+}
+
+#patternIntro h1 {
+	margin: 0;
+	color: #fff;
+}
+
+.pattern-content {
+	position: relative;	
+}
+
+.pattern-content p {
+	max-width: 600px;
+	margin-bottom: 35px;
+}
+
+.pattern-content h3 {
+	max-width: 600px;
+	font-weight: 600;
+	font-size: 2em;
+}
+
+.pattern-content ul {
+	list-style-type: circle;
+	font-size: 1.25em;	
+	font-family: 'roboto','Helvetica Neue',Arial,sans-serif;
+	font-weight: 300;
+	line-height: 1.5;
+	max-width: 600px;
+	margin-bottom: 35px;
+}
+
+/*Begin commands*/
+#commandsIntro {
+	height: 400px;
+	background-color: #00A1F1;
+	color: #fff;
+	-webkit-display: flex;
+	display: flex;
+	-webkit-flex-direction: column;
+	flex-direction: column;
+	-webkit-flexwrap: nowrap;
+	flex-wrap: nowrap;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-align-items: center;
+	align-items: center;
+}
+
+#commandsIntro span {
+	font-weight: 100;
+}
+
+/*End Commands*/
+
+/*Begin NavPlusComs*/
+#navCmdIntro {
+	height: 400px;
+	background-color: #7CBB00;
+	color: #fff;
+	-webkit-display: flex;
+	display: flex;
+	-webkit-flex-direction: column;
+	flex-direction: column;
+	-webkit-flexwrap: nowrap;
+	flex-wrap: nowrap;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-align-items: center;
+	align-items: center;
+}
+
+#navCmdIntro span {
+	font-weight: 100;
+}
+
+/*End Nav Commands*/
+
+/*Begin settings*/
+#settingsIntro {
+	height: 400px;
+	background-color: #FFBB00;
+	color: #fff;
+	-webkit-display: flex;
+	display: flex;
+	-webkit-flex-direction: column;
+	flex-direction: column;
+	-webkit-flexwrap: nowrap;
+	flex-wrap: nowrap;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-align-items: center;
+	align-items: center;
+}
+
+#settingsIntro span {
+	font-weight: 100;
+}
+
+/*End settings*/
+
+/*Begin multisection*/
+#multisectionIntro {
+	height: 400px;
+	background-color: #F65314;
+	color: #fff;
+	-webkit-display: flex;
+	display: flex;
+	-webkit-flex-direction: column;
+	flex-direction: column;
+	-webkit-flexwrap: nowrap;
+	flex-wrap: nowrap;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-align-items: center;
+	align-items: center;
+}
+
+#multisectionIntro span {
+	font-weight: 100;
+}
+
+/*End multisection*/
+
+/*Begin multisection*/
+#feedbackIntro {
+	height: 400px;
+	background-color: #333333;
+	color: #fff;
+	-webkit-display: flex;
+	display: flex;
+	-webkit-flex-direction: column;
+	flex-direction: column;
+	-webkit-flexwrap: nowrap;
+	flex-wrap: nowrap;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-align-items: center;
+	align-items: center;
+}
+
+#feedbackIntro span {
+	font-weight: 100;
+}
+
+/*End multisection*/
+/*End Patterns*/
 /*Media Queries*/
 @media(min-width:768px) {
 	.navbar-default {
