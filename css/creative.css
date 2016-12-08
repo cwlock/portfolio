@@ -64,11 +64,12 @@ p {
     margin-bottom: 20px;
     font-size: 20px;
     line-height: 1.5;
-	font-family: roboto-light, 'Helvetica Neue',Arial,sans-serif;
+	font-family: 'roboto','Helvetica Neue',Arial,sans-serif;
+	font-weight: 300;
 }
 
 .project_heading {
-	font-family: roboto,'Helvetica Neue',Arial,sans-serif;
+	font-family: 'roboto','Helvetica Neue',Arial,sans-serif;
 	margin: 10px 0 5px 0;
 	font-weight: 400;
 	font-size: 1.25em;
@@ -84,7 +85,7 @@ p {
 }
 .project_list li {
 	font-size: 1em;	
-	font-family: roboto,'Helvetica Neue',Arial,sans-serif;
+	font-family: 'roboto','Helvetica Neue',Arial,sans-serif;
 	font-weight: 300;
 }
 .live_link {
